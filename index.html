@@ -65,21 +65,61 @@ function readingAdaptation(n){
  return `Ausgangspunkt der Lektüre ist die Meldung mit dem Titel „${title}“.\n\n${summary||'Die Originalquelle enthält keinen ausführlichen Beschreibungstext.'}\n\nFür eine differenzierte Einordnung sollte zwischen ausdrücklich genannten Tatsachen, möglichen Interpretationen und noch ungeklärten Fragen unterschieden werden. Welche Schlussfolgerungen sind durch die vorliegenden Angaben gedeckt? Welche zusätzlichen Informationen wären erforderlich, um die Tragweite der Entwicklung zuverlässig zu beurteilen?\n\nFormuliere eine sachliche Zusammenfassung und erörtere anschließend eine denkbare gesellschaftliche, wissenschaftliche oder wirtschaftliche Bedeutung. Kennzeichne eigene Überlegungen ausdrücklich als solche.`;
 }
 function readingQuestions(n,isStory){
- const key=n.id||'story:'+state.article;
- const title=n.title;
- const category=n.category;
- const source=n.source;
- const correctSummary=n.description||n.text||'';
- const distractors=['Der Text enthält ausschließlich persönliche Erinnerungen ohne sachliche Informationen.','Der Text erklärt, dass sämtliche politischen Entscheidungen bereits rückgängig gemacht wurden.','Die Meldung enthält keine Aussage zu ihrem im Titel genannten Thema.'];
- const questions=[
- {q:'Welches Thema steht im Mittelpunkt des Textes?',opts:[category,'Sportveranstaltungen','Reiseplanung'],answer:0,why:'Der Text ist dem Themenbereich „'+category+'“ zugeordnet.'},
- {q:'Welche Überschrift gehört zu diesem Text?',opts:['Eine Anleitung zum Kochen',title,'Ein fiktives Reiseprotokoll'],answer:1,why:'Die passende Überschrift lautet „'+title+'“.'},
- {q:'Welche Aussage ist beim Lesen einer Nachricht angemessen?',opts:['Eigene Vermutungen als Tatsachen darstellen','Nur die Überschrift lesen und alles andere ignorieren','Fakten aus dem Text von eigenen Schlussfolgerungen trennen'],answer:2,why:'Eine sorgfältige Lektüre unterscheidet belegte Informationen und eigene Interpretationen.'},
- {q:'Was ist die beste Grundlage für eine sachliche Zusammenfassung?',opts:['Die tatsächlich im Text enthaltenen Informationen','Unbelegte Ergänzungen und erfundene Details','Ausschließlich die persönliche Meinung'],answer:0,why:'Eine Zusammenfassung muss sich auf den vorliegenden Text stützen.'},
- {q:'Wie lässt sich die Quelle am besten überprüfen?',opts:['Durch einen zufälligen Kommentar','Durch Öffnen der angegebenen Originalquelle','Durch das Weglassen der Quellenangabe'],answer:1,why:'Die Originalquelle ist angegeben: '+source+'.'}
- ];
+ // All correct factual answers are extracted from the displayed source text.
+ // Other headlines are distractors, never presented as facts about this article.
+ const raw=(isStory?n.text:n.description)||'';
+ const sentences=raw.replace(/\s+/g,' ').trim().match(/[^.!?]+(?:[.!?]+|$)/g)?.map(x=>x.trim()).filter(x=>x.length>24)||[];
+ const otherTitles=[...liveNews,...articles].filter(x=>x.title&&x.title!==n.title).map(x=>x.title);
+ const otherSentences=[...liveNews,...articles].filter(x=>x.title!==n.title).flatMap(x=>((x.description||x.text||'').match(/[^.!?]+(?:[.!?]+|$)/g)||[]).map(v=>v.trim()).filter(v=>v.length>25));
+ function options(correct,wrong,q,why,shift=0){
+  const pool=[correct,...wrong.filter(x=>x&&x!==correct)].filter((x,i,a)=>a.indexOf(x)===i).slice(0,3);
+  while(pool.length<3)pool.push('Diese Information ist im vorliegenden Kurztext nicht enthalten ('+pool.length+').');
+  const turn=shift%3;const opts=[...pool.slice(turn),...pool.slice(0,turn)];
+  return {q,opts,answer:opts.indexOf(correct),why};
+ }
+ const questions=[];
+ questions.push(options(n.title,otherTitles.slice(0,2).concat(['Ein anderes Thema ohne Bezug zum Text']),
+  'Welche Überschrift gehört zu dem gelesenen Artikel?',
+  'Die Überschrift des ausgewählten Artikels lautet: „'+n.title+'“.',1));
+ if(sentences.length){
+  questions.push(options(sentences[0],otherSentences.slice(0,2),
+   'Welche Aussage steht ausdrücklich im gelesenen Text?',
+   'Diese Aussage ist wörtlich im Kurztext enthalten: „'+sentences[0]+'“',2));
+ }else{
+  questions.push(options(n.category,['Sport','Reisen'],
+   'Welchem Themenbereich ist dieser Artikel zugeordnet?',
+   'Die Meldung ist unter „'+n.category+'“ eingeordnet.',2));
+ }
+ if(sentences.length>=2){
+  questions.push(options(sentences[1],otherSentences.filter(x=>x!==sentences[0]).slice(2,4).concat(otherSentences.slice(0,2)),
+   'Welche weitere Information wird im Text genannt?',
+   'Im zweiten Satz steht: „'+sentences[1]+'“',1));
+ }else if(sentences.length){
+  questions.push(options(sentences[0],['Der Text enthält eine vollständige wissenschaftliche Studie.','Die Meldung nennt ausdrücklich keine Fakten.'],
+   'Welche Formulierung lässt sich anhand des Kurztextes belegen?',
+   'Der vorliegende Kurztext enthält diese Formulierung.',1));
+ }else{
+  questions.push(options(n.title,otherTitles.slice(2,4),
+   'Welche Nachricht hast du ausgewählt?',
+   'Die Überschrift ist direkt über dem Lesetext angegeben.',1));
+ }
+ const word=(raw.match(/\b[A-ZÄÖÜ][a-zäöüß]{6,}\b/g)||[]).find(w=>!['Deutschland','Allerdings','Während'].includes(w));
+ if(word){
+  questions.push(options(word,['ein im Text nicht genanntes Fachwort','eine nicht belegte Behauptung'],
+   'Welcher dieser Ausdrücke kommt im Text tatsächlich vor?',
+   'Der Ausdruck „'+word+'“ ist im Text enthalten. Seine Bedeutung kannst du im Mini-Wörterbuch nachschlagen.',2));
+ }else{
+  questions.push(options(n.source,['Eine anonyme private Nachricht','Ein unbekannter Kommentar'],
+   'Welche Quelle ist für diesen Text angegeben?',
+   'Als Quelle ist „'+n.source+'“ angegeben.',2));
+ }
+ questions.push(options('Die vollständige Originalquelle öffnen',[
+  'Eine zusätzliche Behauptung ohne Beleg erfinden','Nur aus der Überschrift weitere Einzelheiten ableiten'],
+  'Wie kannst du weitere Einzelheiten zu genau dieser Meldung zuverlässig nachlesen?',
+  'Der Link zum vollständigen Originalartikel steht unter dem Lesetext.',1));
  return questions;
 }
+
 function renderReadingQuiz(n,key,isStory){
  const questions=readingQuestions(n,isStory);
  const saved=state.readingResults?.[key];
@@ -143,7 +183,7 @@ function reading(root){
  const adapted=isLive&&!n.isFallback&&state.newsView==='adapted';
  const body=isLive?(adapted?readingAdaptation(n):n.description||'Die Quelle stellt keinen Kurztext bereit. Bitte öffne den Originalartikel.'):n.text;
  const originalLink=n.link&&/^https?:\/\//.test(n.link)?n.link:null;
- document.getElementById('readingContent').innerHTML=`<div class="row between"><span class="tag">${escapeHtml(n.category)}</span><span class="tag">${state.level}</span></div><h2>${escapeHtml(n.title)}</h2><p class="muted">${escapeHtml(n.source)} · ${isLive?(n.isFallback?'Lerntext':newsDate(n.date)):'Redaktioneller Übungstext'}</p>${isLive&&!n.isFallback?`<div class="reader-tools"><button id="originalView" class="${!adapted?'primary':''}">Original-Kurztext</button><button id="adaptedView" class="${adapted?'primary':''}">${state.level}-Lernfassung</button></div>`:''}<div class="note">${isLive?(n.isFallback?'Dies ist ein Übungstext, keine aktuelle Nachricht.':adapted?'Didaktische Bearbeitung auf Grundlage von Überschrift und RSS-Kurztext. Zusätzliche Abschnitte enthalten Lese- und Reflexionsaufgaben, keine neu recherchierten Nachrichtenfakten.':'Original-Kurzbeschreibung aus dem Nachrichtenfeed. Für den vollständigen Artikel die Quelle öffnen.'):'Redaktioneller Lerntext, keine aktuelle Nachricht.'}</div><div class="reader" id="readingBody"></div><p class="muted">Markiere ein Wort und wähle „Wort übersetzen“ oder doppelklicke auf ein Wort.</p><div class="reader-tools"><button id="translateReading">🔎 Wort übersetzen</button><button id="readAloud">🔊 Vorlesen</button><button id="stopAloud">■ Stopp</button><label for="speechRate">Tempo</label><select id="speechRate"><option value="0.7">Langsam</option><option value="0.85">Normal</option><option value="1">Schnell</option></select></div><div id="readingDictionary" class="dict hidden"></div>${originalLink?`<p><a href="${escapeHtml(originalLink)}" target="_blank" rel="noopener noreferrer">${isLive&&!n.isFallback?'Vollständigen Originalartikel öffnen':'Themenseite öffnen'} ↗</a></p>`:''}<div class="question"><h3>Leseverständnis · 5 Aufgaben</h3><p class="muted">Fragen zu Thema, Quelle und kritischer Lektüre. Diese Fragen prüfen keine nicht verfügbaren Details des vollständigen Artikels.</p><div id="readingQuiz"></div></div><div class="question"><h3>Schreibaufgabe · ${state.level}</h3><p>${state.level==='C1'?'Fasse die Kernaussage sachlich zusammen und diskutiere, welche Informationen für eine fundierte Einordnung fehlen.':'Fasse den Text mit eigenen Worten zusammen. Welche Information findest du besonders wichtig?'}</p><textarea class="field" id="readingWriting" placeholder="Der Text thematisiert ..."></textarea><button id="checkWritingReading">Schreibaufgabe prüfen</button><p id="writingReadingFeedback" class="muted"></p></div>`;
+ document.getElementById('readingContent').innerHTML=`<div class="row between"><span class="tag">${escapeHtml(n.category)}</span><span class="tag">${state.level}</span></div><h2>${escapeHtml(n.title)}</h2><p class="muted">${escapeHtml(n.source)} · ${isLive?(n.isFallback?'Lerntext':newsDate(n.date)):'Redaktioneller Übungstext'}</p>${isLive&&!n.isFallback?`<div class="reader-tools"><button id="originalView" class="${!adapted?'primary':''}">Original-Kurztext</button><button id="adaptedView" class="${adapted?'primary':''}">${state.level}-Lernfassung</button></div>`:''}<div class="note">${isLive?(n.isFallback?'Dies ist ein Übungstext, keine aktuelle Nachricht.':adapted?'Didaktische Bearbeitung auf Grundlage von Überschrift und RSS-Kurztext. Zusätzliche Abschnitte enthalten Lese- und Reflexionsaufgaben, keine neu recherchierten Nachrichtenfakten.':'Original-Kurzbeschreibung aus dem Nachrichtenfeed. Für den vollständigen Artikel die Quelle öffnen.'):'Redaktioneller Lerntext, keine aktuelle Nachricht.'}</div><div class="reader" id="readingBody"></div><p class="muted">Markiere ein Wort und wähle „Wort übersetzen“ oder doppelklicke auf ein Wort.</p><div class="reader-tools"><button id="translateReading">🔎 Wort übersetzen</button><button id="readAloud">🔊 Vorlesen</button><button id="stopAloud">■ Stopp</button><label for="speechRate">Tempo</label><select id="speechRate"><option value="0.7">Langsam</option><option value="0.85">Normal</option><option value="1">Schnell</option></select></div><div id="readingDictionary" class="dict hidden"></div>${originalLink?`<p><a href="${escapeHtml(originalLink)}" target="_blank" rel="noopener noreferrer">${isLive&&!n.isFallback?'Vollständigen Originalartikel öffnen':'Themenseite öffnen'} ↗</a></p>`:''}<div class="question"><h3>Leseverständnis · 5 Aufgaben</h3><p class="muted">Artikelbezogene Fragen zu Aussagen aus dem vorliegenden Text. Die vollständige Originalmeldung wird nicht automatisch ausgelesen.</p><div id="readingQuiz"></div></div><div class="question"><h3>Schreibaufgabe · ${state.level}</h3><p>${state.level==='C1'?'Fasse die Kernaussage sachlich zusammen und diskutiere, welche Informationen für eine fundierte Einordnung fehlen.':'Fasse den Text mit eigenen Worten zusammen. Welche Information findest du besonders wichtig?'}</p><textarea class="field" id="readingWriting" placeholder="Der Text thematisiert ..."></textarea><button id="checkWritingReading">Schreibaufgabe prüfen</button><p id="writingReadingFeedback" class="muted"></p></div>`;
  if(isLive&&!n.isFallback){document.getElementById('originalView').onclick=()=>{state.newsView='original';save();render()};document.getElementById('adaptedView').onclick=()=>{state.newsView='adapted';save();render()}}
  bindReaderTools(n,body,key,!isLive);
 }
