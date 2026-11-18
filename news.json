@@ -1,50 +1,617 @@
 {
-  "updated_at": "2026-11-17T14:29:41.380338+00:00",
+  "updated_at": "2026-11-18T14:04:26.235975+00:00",
   "items": [
     {
-      "id": "https://www.heise.de/news/Neue-Bahn-App-Wo-gibt-es-Kaffee-wo-faehrt-mein-Zug-ab-11528069.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Neue Bahn-App: Wo gibt es Kaffee, wo fährt mein Zug ab?",
-      "link": "https://www.heise.de/news/Neue-Bahn-App-Wo-gibt-es-Kaffee-wo-faehrt-mein-Zug-ab-11528069.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Die App DB Info bündelt Echtzeitauskünfte aller Bahnanbieter zu Verbindungen, Verspätungen und Gleiswechseln und hilft im Bahnhof. Tickets gibt es dort nicht.",
-      "date": "2026-11-17T14:15:00+00:00",
+      "id": "https://www.tagesschau.de/ausland/europa/400-jahre-petersdom-100.html",
+      "title": "Petersdom wurde heute vor 400 Jahren geweiht",
+      "link": "https://www.tagesschau.de/ausland/europa/400-jahre-petersdom-100.html",
+      "description": "Seit der Antike pilgern Gläubige an den Ort des heutigen Petersdoms. Dort soll das Grab des Apostels Petrus liegen. Vor genau 400 Jahren, am 18. November 1626, wurde die Basilika geweiht. Von Anna Giordano.",
+      "date": "2026-11-18T14:02:36+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/hintergrund/Abofallen-Lootboxen-Dark-Patterns-EU-plant-neues-Verbraucherschutzgesetz-11493020.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "title": "heise+ | Abofallen, Lootboxen, Dark Patterns: EU plant neues Verbraucherschutzgesetz",
+      "link": "https://www.heise.de/hintergrund/Abofallen-Lootboxen-Dark-Patterns-EU-plant-neues-Verbraucherschutzgesetz-11493020.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "description": "Mit dem Digital Fairness Act will die EU-Kommission manipulative Geschäftspraktiken eindämmen und Verbraucherschutzregeln vereinheitlichen.",
+      "date": "2026-11-18T14:00:00+00:00",
       "category": "Technologie",
       "source": "www.heise.de"
     },
     {
-      "id": "https://www.heise.de/tests/Erste-Fahrt-im-BMW-M3-Vier-E-Motoren-mit-insgesamt-625-kW-11527858.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Erste Fahrt im BMW M3: Vier E-Motoren mit insgesamt 625 kW",
-      "link": "https://www.heise.de/tests/Erste-Fahrt-im-BMW-M3-Vier-E-Motoren-mit-insgesamt-625-kW-11527858.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Der nächste BMW M3 hat vier E-Motoren mit bis zu 625 kW. Auf der Rennstrecke zeigt er, dass er mehr als nur brutale Beschleunigung zu bieten hat.",
-      "date": "2026-11-17T14:10:00+00:00",
+      "id": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-146.html",
+      "title": "Nach Datenleak: Deutsche-Bank-Papiere weiter unter Druck",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-146.html",
+      "description": "Die Deutsche Bank bemüht sich nach dem XXL-Datenleak um Schadensbegrenzung. Anleger gehen auf Nummer sicher und verkaufen weiter ihre Aktien.",
+      "date": "2026-11-18T13:48:13+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wirtschaft/jobbefristungen-kabinett-100.html",
+      "title": "Regierung erleichtert Befristungen von Jobs",
+      "link": "https://www.tagesschau.de/wirtschaft/jobbefristungen-kabinett-100.html",
+      "description": "Leichtere Befristungen, weniger Kündigungsschutz für Hochverdiener: Bereits im Juli hatte sich die Koalition grundsätzlich auf mehrere Änderungen im Arbeitsrecht verständigt. Nun hat das Kabinett das Gesetz auf den Weg gebracht.",
+      "date": "2026-11-18T13:44:31+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-volkswagen-blume-zukunftsstrategie-100.html",
+      "title": "VW-Chef Blume: \"Komplett verändertes Umfeld\" zwingt zum Sparkurs",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-volkswagen-blume-zukunftsstrategie-100.html",
+      "description": "Bei VW starten kommende Woche die Tarifgespräche. Im NDR-Interview spricht Konzernchef Blume über zu hohe Kosten, teure Werke und den umstrittenen Auftritt des Audi-Chefs in den USA. Von Annette Deutskens.",
+      "date": "2026-11-18T13:43:17+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
+      "title": "Stromsteuersenkung und Spritpreisdeckel: Was die Entlastungen im Alltag bringen könnten",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
+      "description": "Ab Januar wollen Union und SPD die Stromsteuer für ein Jahr auf das europäische Mindestniveau senken. Auch ein Spritpreisdeckel ist vereinbart. Was wurde konkret beschlossen und wie viel Entlastung könnte das im Alltag bringen?",
+      "date": "2026-11-18T13:36:45+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
+      "title": "Stromsteuersenkung und Spritpreisdeckel: Was die Entlastungen im Alltag bringen könnten",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
+      "description": "Ab Januar wollen Union und SPD die Stromsteuer für ein Jahr auf das europäische Mindestniveau senken. Auch ein Spritpreisdeckel ist vereinbart. Was wurde konkret beschlossen und wie viel Entlastung könnte das im Alltag bringen?",
+      "date": "2026-11-18T13:36:45+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Mehr-Datenschutz-bei-Gemini-KI-Training-untersagen-und-Verlauf-behalten-11529670.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Mehr Datenschutz bei Gemini: KI-Training untersagen und Verlauf behalten",
+      "link": "https://www.heise.de/news/Mehr-Datenschutz-bei-Gemini-KI-Training-untersagen-und-Verlauf-behalten-11529670.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Durch neue Datenschutzeinstellungen der Gemini-App können Nutzer künftig das KI-Training untersagen, auch wenn sie die Chats länger behalten wollen.",
+      "date": "2026-11-18T13:31:00+00:00",
       "category": "Technologie",
       "source": "www.heise.de"
     },
     {
-      "id": "https://www.heise.de/hintergrund/Flash-Talk-NAND-mit-400-Lagen-neue-SSD-Technik-und-Flash-auf-dem-Mond-11518670.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "title": "heise+ | Flash-Talk: NAND mit 400 Lagen, neue SSD-Technik und Flash auf dem Mond",
-      "link": "https://www.heise.de/hintergrund/Flash-Talk-NAND-mit-400-Lagen-neue-SSD-Technik-und-Flash-auf-dem-Mond-11518670.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "description": "Mehr Lagen, schnellere Schnittstellen und knapper Speicher: Die Flash-Branche arbeitet an neuen Architekturen, während KI-Rechenzentren die Nachfrage antreiben.",
-      "date": "2026-11-17T14:00:00+00:00",
+      "id": "https://www.tagesschau.de/ausland/asien/apec-gipfel-shenzen-trump-xi-putin-100.html",
+      "title": "APEC-Gipfel in Shenzen: Xi umarmt Trump - Putin schon da",
+      "link": "https://www.tagesschau.de/ausland/asien/apec-gipfel-shenzen-trump-xi-putin-100.html",
+      "description": "Die Staatschefs der drei Großmächte China, USA und Russland - Xi, Trump und Putin - sind zum APEC-Gipfel in Shenzen eingetroffen. Dabei stach eine besondere Geste hervor.",
+      "date": "2026-11-18T13:23:23+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Microsoft-SharePoint-Angreifer-koennen-Code-einschleusen-und-ausfuehren-11529556.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Microsoft SharePoint: Angreifer können Code einschleusen und ausführen",
+      "link": "https://www.heise.de/news/Microsoft-SharePoint-Angreifer-koennen-Code-einschleusen-und-ausfuehren-11529556.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Microsoft warnt vor Sicherheitslücken in der SharePoint Server Subscription Edition. Admins sollten das bereitstehende Update anwenden.",
+      "date": "2026-11-18T13:05:00+00:00",
       "category": "Technologie",
       "source": "www.heise.de"
     },
     {
-      "id": "https://www.heise.de/news/EuGH-weist-Klage-gegen-Europol-Befugnis-zur-Massenueberwachung-ab-11527902.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "EuGH weist Klage gegen Europol-Befugnis zur Massenüberwachung ab",
-      "link": "https://www.heise.de/news/EuGH-weist-Klage-gegen-Europol-Befugnis-zur-Massenueberwachung-ab-11527902.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Der EuGH hat die Klage des EU-Datenschutzbeauftragten gegen das Europol-Mandat abgewiesen. Die Behörde darf auch Daten Unverdächtiger im großen Stil auswerten.",
-      "date": "2026-11-17T13:58:00+00:00",
+      "id": "https://www.heise.de/news/iX-Workshop-Industrial-Security-nach-IEC-62443-Ein-Praxisleitfaden-11515957.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "heise-Angebot: iX-Workshop: Industrial Security nach IEC 62443 – Ein Praxisleitfaden",
+      "link": "https://www.heise.de/news/iX-Workshop-Industrial-Security-nach-IEC-62443-Ein-Praxisleitfaden-11515957.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "IEC 62443 für industrielle Automatisierungs- und Steuerungssysteme – Wie Sie Ihre Produktentwicklung von Anfang an sicher und normenkonform gestalten.",
+      "date": "2026-11-18T13:00:00+00:00",
       "category": "Technologie",
       "source": "www.heise.de"
     },
     {
-      "id": "https://www.heise.de/news/Play-Systemupdate-laesst-Wear-OS-Uhren-das-GPS-des-Smartphones-nutzen-11527982.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Play-Systemupdate lässt Wear-OS-Uhren das GPS des Smartphones nutzen",
-      "link": "https://www.heise.de/news/Play-Systemupdate-laesst-Wear-OS-Uhren-das-GPS-des-Smartphones-nutzen-11527982.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Google verteilt ein neues Play-Systemupdate für Android, mit dem Wear-OS-Uhren auf das GPS des gekoppelten Android-Smartphones zurückgreifen können.",
-      "date": "2026-11-17T13:57:00+00:00",
+      "id": "https://www.tagesschau.de/inland/gesellschaft/sturm-deutschland-106.html",
+      "title": "Sturm und Regen in Deutschland - viele Einsätze von Polizei und Feuerwehr",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/sturm-deutschland-106.html",
+      "description": "Mancherorts sind bereits 50 Liter Regen binnen 24 Stunden runtergekommen - kombiniert mit heftigem Wind. Das bleibt zunächst auch so. Für fast ganz Deutschland gelten Unwetterwarnungen. Bislang war vor allem NRW betroffen.",
+      "date": "2026-11-18T12:59:46+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/stromsteuer-reaktionen-100.html",
+      "title": "\"Kleiner Hüpfer\", \"überfällig\", \"abenteuerlich\" - Reaktionen auf Stromsteuersenkung",
+      "link": "https://www.tagesschau.de/inland/stromsteuer-reaktionen-100.html",
+      "description": "Sie kommt also, die vom Kanzler versprochene Stromsteuersenkung - zumindest für 2027. Die Maßnahme selbst stößt auf ein weitgehend positives Echo. Doch es gibt auch viel Kritik - daran, dass die Entlastung nicht dauerhaft ist.",
+      "date": "2026-11-18T12:40:24+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/tests/Pocket-Nachfolger-So-schlaegt-sich-Laytr-im-Test-11526120.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "title": "heise+ | Pocket-Nachfolger: So schlägt sich Laytr im Test",
+      "link": "https://www.heise.de/tests/Pocket-Nachfolger-So-schlaegt-sich-Laytr-im-Test-11526120.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "description": "Gegen das Browser-Tab-Chaos: Mit Laytr speichert man Artikel, Screenshots und Ähnliches für später. Reminder und Filter helfen beim Wiederfinden.",
+      "date": "2026-11-18T12:30:00+00:00",
       "category": "Technologie",
       "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/bestenlisten/deals/ist-denn-schon-black-friday-erste-deals-vor-der-black-week-bei-amazon-und-co/bj6eely?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Ist denn schon Black Friday? Erste Deals vor der Black Week bei Amazon & Co.",
+      "link": "https://www.heise.de/bestenlisten/deals/ist-denn-schon-black-friday-erste-deals-vor-der-black-week-bei-amazon-und-co/bj6eely?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Der Onlinehandel lockt schon vor dem Start der Black Week 2026 mit fetten Rabatten und Nachlässen. Wir prüfen, welche Pre-Deals sich wirklich lohnen.",
+      "date": "2026-11-18T12:30:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Datenlecks-bei-Bueroausstatter-Office-Partner-und-DHL-Group-11529484.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "IT-Vorfälle bei Büroausstatter Office Partner und DHL Group",
+      "link": "https://www.heise.de/news/Datenlecks-bei-Bueroausstatter-Office-Partner-und-DHL-Group-11529484.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Cyberkriminelle sind bei Dienstleistern des Büroausstatters Office Partner und der DHL Group eingedrungen und haben Daten kopiert.",
+      "date": "2026-11-18T12:27:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/asien/cop31-krieg-emissionen-100.html",
+      "title": "\"Keine Klimagerechtigkeit ohne Entmilitarisierung\"",
+      "link": "https://www.tagesschau.de/ausland/asien/cop31-krieg-emissionen-100.html",
+      "description": "Militär verursacht geschätzt fünfeinhalb Prozent des globalen CO2-Ausstoßes. Auch der Wiederaufbau nach einem Krieg belastet das Klima. Experten auf der Weltklimakonferenz fordern deshalb Entmilitarisierung. Von D. K. Mäurer.",
+      "date": "2026-11-18T12:13:49+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/bsw-beschwerde-abgelehnt-bundestagswahl-100.html",
+      "title": "Keine Neuauszählung: BSW scheitert mit Wahlprüfungsbeschwerde",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/bsw-beschwerde-abgelehnt-bundestagswahl-100.html",
+      "description": "Zu wenige Stimmen und Belege: Das Bundesverfassungsgericht lehnt eine Klage des BSW auf Neuauszählung der Stimmen bei der Bundestagswahl ab. Nun erwägt die Union eine Reform der Wahlprüfung. Von Max Bauer.",
+      "date": "2026-11-18T11:55:00+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Spritpreisdeckel-soll-ab-Januar-aktiviert-werden-11529286.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Tankrabatt läuft aus: Spritpreisdeckel soll folgen",
+      "link": "https://www.heise.de/news/Spritpreisdeckel-soll-ab-Januar-aktiviert-werden-11529286.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Ein Spritpreisdeckel kommt: Erste Pläne von Wirtschaftsministerin Reiche sorgten für viel Kritik. Nun gibt es in der Koalition eine Entscheidung.",
+      "date": "2026-11-18T11:52:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Neuer-Router-legte-offenbar-den-Flugverkehr-der-USA-stundenlang-lahm-11529155.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "US-Flugstopp: Techniker tauscht Router mitten am Tag, Tausende Flüge fallen aus",
+      "link": "https://www.heise.de/news/Neuer-Router-legte-offenbar-den-Flugverkehr-der-USA-stundenlang-lahm-11529155.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Für den massiven Flugstopp in den USA waren Modernisierungsarbeiten am Kommunikationsnetzwerk der FAA verantwortlich. Ein neuer Router hat es überlastet.",
+      "date": "2026-11-18T11:46:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wissen/gesundheit/wie-eine-zuckersteuer-der-gesundheit-helfen-koennte-100.html",
+      "title": "Wie eine Zuckersteuer der Gesundheit helfen kann",
+      "link": "https://www.tagesschau.de/wissen/gesundheit/wie-eine-zuckersteuer-der-gesundheit-helfen-koennte-100.html",
+      "description": "Weniger Zucker in Getränken, weniger Erkrankungen - das ist die Hoffnung hinter einer Zuckersteuer. Doch dabei kommt es darauf an, was tatsächlich in die Flasche kommt. Von Yasmin Appelhans.",
+      "date": "2026-11-18T11:43:38+00:00",
+      "category": "Wissenschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wissen/gesundheit/wie-eine-zuckersteuer-der-gesundheit-helfen-koennte-100.html",
+      "title": "Wie eine Zuckersteuer der Gesundheit helfen kann",
+      "link": "https://www.tagesschau.de/wissen/gesundheit/wie-eine-zuckersteuer-der-gesundheit-helfen-koennte-100.html",
+      "description": "Weniger Zucker in Getränken, weniger Erkrankungen - das ist die Hoffnung hinter einer Zuckersteuer. Doch dabei kommt es darauf an, was tatsächlich in die Flasche kommt. Von Yasmin Appelhans.",
+      "date": "2026-11-18T11:43:38+00:00",
+      "category": "Gesundheit",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/news/GTA-6-Fachpresse-feiert-Rockstars-Open-World-Spiel-mit-Hoechstwertungen-11529221.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "„GTA 6“: Fachpresse feiert Rockstars Open-World-Spiel mit Höchstwertungen",
+      "link": "https://www.heise.de/news/GTA-6-Fachpresse-feiert-Rockstars-Open-World-Spiel-mit-Hoechstwertungen-11529221.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Die ersten Tests zu „GTA 6“ fallen überragend aus: Auf Metacritic steht das Spiel bei 99 Punkten. Kritik gibt es nur an Details wie der Bildrate.",
+      "date": "2026-11-18T11:26:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/gesetzentwurf-sorgerecht-100.html",
+      "title": "Sorgerechtsreform: Kein Umgangsrecht mehr für gewalttätigen Elternteil",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/gesetzentwurf-sorgerecht-100.html",
+      "description": "Wie können Kinder besser geschützt werden, wenn es zwischen den Eltern zu Gewalt kommt? Die Regierung hat dafür eine Gesetzesreform auf den Weg gebracht - mit klar geregelten Sanktionen für Eltern und mehr Mitbestimmungsrechten für Kinder.",
+      "date": "2026-11-18T11:19:09+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Uber-und-Momenta-starten-Dienst-mit-Robotaxis-in-Muenchen-11529320.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Uber und Momenta starten Dienst mit Robotaxis in München",
+      "link": "https://www.heise.de/news/Uber-und-Momenta-starten-Dienst-mit-Robotaxis-in-Muenchen-11529320.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Das chinesische Unternehmen Momenta darf seit Juli autonom in Deutschland fahren. In München startet ein Pilotprojekt mit Robotaxis.",
+      "date": "2026-11-18T11:14:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Bitkom-Mehr-KI-Nutzung-bei-Symptomen-Vorbehalte-gegenueber-KI-wachsen-ebenfalls-11529059.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Bitkom: Mehr KI-Nutzung bei Symptomen, Vorbehalte gegenüber KI wachsen ebenfalls",
+      "link": "https://www.heise.de/news/Bitkom-Mehr-KI-Nutzung-bei-Symptomen-Vorbehalte-gegenueber-KI-wachsen-ebenfalls-11529059.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Viele nutzen KI-Chatbots für Gesundheitsfragen. Zugleich wachsen Vorbehalte gegen KI in der Medizin und Sorgen um persönliche Daten.",
+      "date": "2026-11-18T11:03:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/tests/Modartt-Airteq-Elektronische-Orgelklaenge-mit-dem-Atem-formen-11523454.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "title": "heise+ | Modartt Airteq: Elektronische Orgelklänge mit dem Atem formen",
+      "link": "https://www.heise.de/tests/Modartt-Airteq-Elektronische-Orgelklaenge-mit-dem-Atem-formen-11523454.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "description": "Das Software-Instrument Airteq modelliert Orgelpfeifen, die man per Klaviatur oder atemgesteuert mit dem elektronischen Blaswandler einspielen kann.",
+      "date": "2026-11-18T11:00:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Viren-jagen-Daten-retten-Desinfec-t-2026-27-ist-ab-sofort-erhaeltlich-11527418.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "heise-Angebot: Viren jagen, Daten retten: Desinfec’t 2026/27 ist ab sofort erhältlich",
+      "link": "https://www.heise.de/news/Viren-jagen-Daten-retten-Desinfec-t-2026-27-ist-ab-sofort-erhaeltlich-11527418.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Aktualisierte Ubuntu-Basis und ein ressourcenschonenderer Scanassistent: Das c’t-Sicherheitstool mit Scannern von ESET, IKARUS und WithSecure hat dazugelernt.",
+      "date": "2026-11-18T11:00:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Humanoider-Atlas-Roboter-soll-erstmals-in-Halbleiterfabrik-arbeiten-11529147.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Humanoider Atlas-Roboter soll erstmals in Halbleiterfabrik arbeiten",
+      "link": "https://www.heise.de/news/Humanoider-Atlas-Roboter-soll-erstmals-in-Halbleiterfabrik-arbeiten-11529147.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Das Halbleiterunternehmen Globals Foundry will den humanoiden Atlas-Roboter in seinen Werken einsetzen. Die Arbeit von Roboterhund Spot soll ausgeweitet werden.",
+      "date": "2026-11-18T10:55:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/news/GitHub-Alternative-Codeberg-verliert-Domain-und-ist-nicht-erreichbar-11529143.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "GitHub-Alternative: Codeberg verliert Domain und ist nicht erreichbar",
+      "link": "https://www.heise.de/news/GitHub-Alternative-Codeberg-verliert-Domain-und-ist-nicht-erreichbar-11529143.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Die freie GitHub-Alternative Codeberg ist momentan nicht über ihre Domain erreichbar. Auch die Reddit-Community wurde gesperrt.",
+      "date": "2026-11-18T10:48:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/gesellschaft/gen-z-proteste-union-100.html",
+      "title": "Unions-Fraktionsvize sieht Nachholbedarf bei Politik für junge Menschen",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/gen-z-proteste-union-100.html",
+      "description": "Ende Oktober hatte es am Rande von \"Gen Z\"-Demos massive Gewalt gegeben, danach gab es Forderungen nach Demo-Verboten. Für Freitag sind neue Kundgebungen geplant. Aus Parteien kommt nun demonstrative Unterstützung - auch aus der Union.",
+      "date": "2026-11-18T10:32:57+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/meinung/PV-Einspeiseverguetung-soll-bleiben-Warum-das-keine-gute-Nachricht-ist-11528709.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "PV-Einspeisevergütung soll bleiben: Warum das keine gute Nachricht ist",
+      "link": "https://www.heise.de/meinung/PV-Einspeiseverguetung-soll-bleiben-Warum-das-keine-gute-Nachricht-ist-11528709.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "EEG-Reform: Die SPD setzt sich bei der Einspeisevergütung wohl durch, dafür soll Biogas mehr Förderung erhalten. Ein Kommentar zu einem fragwürdigen Kompromiss.",
+      "date": "2026-11-18T10:29:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/news/IT-Probleme-bei-US-Banken-und-NSA-angeblich-wegen-zu-vieler-Patches-11529019.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "IT-Probleme bei US-Banken und NSA angeblich wegen zu vieler Patches",
+      "link": "https://www.heise.de/news/IT-Probleme-bei-US-Banken-und-NSA-angeblich-wegen-zu-vieler-Patches-11529019.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "In den USA sorgt eine Reihe von IT-Problemen für Aufsehen. Für zwei sollen zu viele Patches gegen Lücken verantwortlich sein, die KI-Technik identifiziert hat.",
+      "date": "2026-11-18T10:20:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wirtschaft/finanzen/nvidia-kurssturz-etf-sparer-risiken-100.html",
+      "title": "Wie riskant ist Nvidias Kurssturz für ETF-Sparer?",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/nvidia-kurssturz-etf-sparer-risiken-100.html",
+      "description": "Nach dem Rücktritt von Jensen Huang hat die Nvidia-Aktie massiv an Wert verloren. Weil sie im MSCI World gelistet ist, betrifft das viele ETF-Sparer. Wie schwer der Kursrutsch wiegt - und wo jetzt weitere Gefahren lauern. Von Angela Göpfert.",
+      "date": "2026-11-18T10:17:57+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Windows-Server-2028-Oeffentliche-Vorschau-verfuegbar-11528845.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Windows Server 2028: Öffentliche Vorschau verfügbar",
+      "link": "https://www.heise.de/news/Windows-Server-2028-Oeffentliche-Vorschau-verfuegbar-11528845.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Microsoft arbeitet am Windows Server 2028 und hat nun eine Vorschauversion herausgegeben. Es geht um mehr Sicherheit – und KI.",
+      "date": "2026-11-18T10:01:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.heise.de/news/Google-zwingt-Android-Apps-ab-Januar-zur-Begruendung-fuer-Standortzugriff-11529001.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "title": "Google zwingt Android-Apps ab Januar zur Begründung für Standortzugriff",
+      "link": "https://www.heise.de/news/Google-zwingt-Android-Apps-ab-Januar-zur-Begruendung-fuer-Standortzugriff-11529001.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "description": "Google passt die Richtlinien für einige Schnittstellen unter Android an. Damit sollen Entwickler künftig weniger Schindluder mit Nutzerdaten treiben können.",
+      "date": "2026-11-18T09:47:00+00:00",
+      "category": "Technologie",
+      "source": "www.heise.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wissen/technologie/voyager-1-100.html",
+      "title": "So weit wie noch nie: Raumsonde \"Voyager 1\" - einen Lichttag von Erde entfernt",
+      "link": "https://www.tagesschau.de/wissen/technologie/voyager-1-100.html",
+      "description": "Seit fast 50 Jahren erkunden die \"Voyager\"-Sonden die Tiefen des Weltraums. Mit einer solchen Lebensdauer hatte niemand gerechnet. Und heute ist \"Voyager 1\" genau einen Lichttag von der Erde entfernt. Von Nina Kunze.",
+      "date": "2026-11-18T09:46:22+00:00",
+      "category": "Wissenschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1685746.html",
+      "title": "Update Wirtschaft vom 18.11.2026",
+      "link": "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1685746.html",
+      "description": "Update Wirtschaft vom 18.11.2026",
+      "date": "2026-11-18T09:20:58+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wirtschaft/konjunktur/wohnungsbau-september-100.html",
+      "title": "Baugenehmigungen von Wohnungen brechen nach starkem Anstieg ein",
+      "link": "https://www.tagesschau.de/wirtschaft/konjunktur/wohnungsbau-september-100.html",
+      "description": "Nach mehr als einem Jahr mit steigenden Baugenehmigungen gibt es im September erstmals wieder einen Rückgang. Im Vergleich zum Vorjahresmonat wurden knapp 15 Prozent weniger Wohnungen genehmigt.",
+      "date": "2026-11-18T09:01:00+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-einigung-stromsteuer-spritpreisdeckel-100.html",
+      "title": "Stromsteuersenkung und Spritpreisdeckel - zeitlich begrenzt",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-einigung-stromsteuer-spritpreisdeckel-100.html",
+      "description": "Die Spitzen von Union und SPD haben sich im Koalitionsausschuss auf eine Senkung der Stromsteuer für alle geeinigt. Die Finanzierung steht allerdings nur für 2027. Auch ein Spritpreisdeckel soll zeitlich begrenzt kommen.",
+      "date": "2026-11-18T08:55:03+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-einigung-stromsteuer-spritpreisdeckel-100.html",
+      "title": "Stromsteuersenkung und Spritpreisdeckel - zeitlich begrenzt",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-einigung-stromsteuer-spritpreisdeckel-100.html",
+      "description": "Die Spitzen von Union und SPD haben sich im Koalitionsausschuss auf eine Senkung der Stromsteuer für alle geeinigt. Die Finanzierung steht allerdings nur für 2027. Auch ein Spritpreisdeckel soll zeitlich begrenzt kommen.",
+      "date": "2026-11-18T08:55:03+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/bsw-wahlpruefung-100.html",
+      "title": "Bundesverfassungsgericht: BSW scheitert mit Wahlbeschwerde",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/bsw-wahlpruefung-100.html",
+      "description": "Das BSW war bei der Bundestagswahl sehr knapp gescheitert und wollte, dass neu ausgezählt wird. Damit scheiterte die Partei nun auch endgültig vor dem Bundesverfassungsgericht. BSW-Politiker kritisierten das scharf.",
+      "date": "2026-11-18T08:55:02+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/amerika/midterms-usa-alaska-100.html",
+      "title": "US-Midterms: Demokraten gewinnen auch Senatssitz in Alaska",
+      "link": "https://www.tagesschau.de/ausland/amerika/midterms-usa-alaska-100.html",
+      "description": "Alaska stand noch aus, nun ist klar: Auch dort haben die Demokraten den Senatssitz gewonnen. Damit konnten sie bei den Midterms neun zusätzliche Sitze erobern - was es seit Jahrzehnten nicht mehr gab. Senatorin wird die Indigene Mary Peltola.",
+      "date": "2026-11-18T06:56:21+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/koalition-beendet-verhandlungen-100.html",
+      "title": "Mögliche Stromsteuersenkung: Verhandlung beendet - Verkündung am Morgen",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/koalition-beendet-verhandlungen-100.html",
+      "description": "Nach acht Stunden haben die Spitzen von CDU, CSU und SPD ihre Beratungen in der Nacht beendet - haben sie sich auf eine Stromsteuersenkung geeinigt? Die Details aus dem Koalitionsausschuss sollen am Morgen bekannt gegeben werden.",
+      "date": "2026-11-18T06:20:31+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/asien/apec-trump-putin-xi-100.html",
+      "title": "Treffen von Trump, Xi und Putin: Rüstung, KI - und ein heikles Thema",
+      "link": "https://www.tagesschau.de/ausland/asien/apec-trump-putin-xi-100.html",
+      "description": "Heute beginnt im chinesischen Shenzhen das APEC-Treffen. Erstmals wird es zu einem Dreiertreffen von Xi, Trump und Putin kommen. Um was könnte es dabei gehen? Von Christoph Kober.",
+      "date": "2026-11-18T05:17:26+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
+      "title": "Welche Fortschritte beim Klimaschutz erreicht wurden",
+      "link": "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
+      "description": "Weltweit kommt der Ausbau von Erneuerbaren Energien voran - viel stärker als vor Jahren noch erwartet. Das liegt unter anderem daran, dass Solarzellen viel günstiger produziert werden. Positive Beispiele sind Bulgarien und Pakistan. Von J. Kösters.",
+      "date": "2026-11-18T05:16:11+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
+      "title": "Welche Fortschritte beim Klimaschutz erreicht wurden",
+      "link": "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
+      "description": "Weltweit kommt der Ausbau von Erneuerbaren Energien voran - viel stärker als vor Jahren noch erwartet. Das liegt unter anderem daran, dass Solarzellen viel günstiger produziert werden. Positive Beispiele sind Bulgarien und Pakistan. Von J. Kösters.",
+      "date": "2026-11-18T05:16:11+00:00",
+      "category": "Wissenschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wissen/gesundheit/neuer-biomarker-im-urin-hilft-ko-tropfen-nachzuweisen-100.html",
+      "title": "K.o.-Tropfen: Neue Spur im Urin hilft beim Nachweis",
+      "link": "https://www.tagesschau.de/wissen/gesundheit/neuer-biomarker-im-urin-hilft-ko-tropfen-nachzuweisen-100.html",
+      "description": "Der Einsatz von K.o.-Tropfen bei Sexualdelikten oder Raub ist für die Opfer hochgefährlich - und meist schwer nachzuweisen. Mithilfe eines neu identifizierten Moleküls könnte sich das nun ändern. Von Andreas Kegel.",
+      "date": "2026-11-18T05:06:29+00:00",
+      "category": "Wissenschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wissen/gesundheit/neuer-biomarker-im-urin-hilft-ko-tropfen-nachzuweisen-100.html",
+      "title": "K.o.-Tropfen: Neue Spur im Urin hilft beim Nachweis",
+      "link": "https://www.tagesschau.de/wissen/gesundheit/neuer-biomarker-im-urin-hilft-ko-tropfen-nachzuweisen-100.html",
+      "description": "Der Einsatz von K.o.-Tropfen bei Sexualdelikten oder Raub ist für die Opfer hochgefährlich - und meist schwer nachzuweisen. Mithilfe eines neu identifizierten Moleküls könnte sich das nun ändern. Von Andreas Kegel.",
+      "date": "2026-11-18T05:06:29+00:00",
+      "category": "Gesundheit",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/muss-bundestagswahl-neu-ausgezaehlt-werden-bsw-100.html",
+      "title": "Bundestagswahl 2025: Karlsruhe entscheidet über BSW-Wahlbeschwerde",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/muss-bundestagswahl-neu-ausgezaehlt-werden-bsw-100.html",
+      "description": "Bei der Bundestagswahl 2025 fehlten dem BSW weniger als 10.000 Stimmen für den Einzug ins Parlament. Im Streit um eine Neuauszählung steht jetzt eine Entscheidung aus Karlsruhe an. Von K. Hempel und T. Zachäus.",
+      "date": "2026-11-18T05:05:41+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/investigativ/ndr-wdr/dws-118.html",
+      "title": "Deutsche-Bank-Tochter DWS: Zwölf Milliarden Euro ohne Geldwäsche-Aufsicht",
+      "link": "https://www.tagesschau.de/investigativ/ndr-wdr/dws-118.html",
+      "description": "Die Deutsche-Bank-Tochter DWS verwaltet Milliarden für Betriebsrenten in einer Stiftung, die nicht von der Finanzaufsicht Bafin kontrolliert wird. Doch nun droht der Stiftung Ärger mit Ermittlern, wie Recherchen von NDR, WDR und SZ zeigen.",
+      "date": "2026-11-18T05:00:42+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/gesellschaft/stimmungslage-deutschland-heimatreport-100.html",
+      "title": "\"Heimatreport\": Viel Zufriedenheit, aber auch Sorgen",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/stimmungslage-deutschland-heimatreport-100.html",
+      "description": "Der erste \"Heimatreport\" des Bundeslandwirtschaftsministeriums zeigt: Viele Deutsche sind zufrieden und fühlen sich mit Wohnort und Region verbunden. Sorgen gibt es, dass sich die Lebensbedingungen verschlechtern. Von Eva Huber.",
+      "date": "2026-11-18T04:31:00+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wirtschaft/finanzen/inflation-interview-bundesbankpraesident-nagel-100.html",
+      "title": "\"An der Zinsschraube drehen\", um die Inflation zu bekämpfen",
+      "link": "https://www.tagesschau.de/wirtschaft/finanzen/inflation-interview-bundesbankpraesident-nagel-100.html",
+      "description": "Die Inflationssorgen sind zurück. Über einen Ausblick auf 2027, Unterschiede zur überstandenen Rekordinflation und was sich vom Nikolaus über die Preisbildung lernen lässt, spricht Bundesbankpräsident Nagel im tagesschau-Interview.",
+      "date": "2026-11-18T04:02:36+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/asien/israel-knesset-praesident-100.html",
+      "title": "Israels Knesset: Eisenkot-Verbündeter als Parlamentspräsident gewählt",
+      "link": "https://www.tagesschau.de/ausland/asien/israel-knesset-praesident-100.html",
+      "description": "Das israelische Parlament hat Matan Kahana zu seinem neuen Präsidenten und Sprecher gewählt - damit hat der Anti-Netanjahu-Block einen wichtigen Schritt gemacht. Von Bettina Meier.",
+      "date": "2026-11-18T03:10:48+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/amerika/masern-usa-118.html",
+      "title": "Warum die USA nicht mehr masernfrei sind",
+      "link": "https://www.tagesschau.de/ausland/amerika/masern-usa-118.html",
+      "description": "Die USA erleben den schlimmsten Masern-Ausbruch seit mehr als 35 Jahren. Und haben nun auch ihren Status als masernfreies Land verloren. Das hat die Panamerikanische Gesundheitsorganisation (PAHO) offiziell bekannt gegeben. Von N. Barth.",
+      "date": "2026-11-18T01:34:24+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-quartalsergebnisse-100.html",
+      "title": "Neue Quartalszahlen: Nvidia verdoppelt Umsatz und Gewinn",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-quartalsergebnisse-100.html",
+      "description": "Wenige Tage nach der Spionageaffäre rund um den bisherigen Konzernchef Huang hat Nvidia überraschend starke Quartalsergebnisse vorgelegt. Die Zahlen des US-Chipkonzerns lagen deutlich über den Erwartungen von Analysten.",
+      "date": "2026-11-18T00:59:30+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/europa/pistorius-ukraine-angriffe-usa-kritik-100.html",
+      "title": "\"Ziemlich dumm\": Pistorius reagiert auf US-Kritik an ukrainischen Angriffen",
+      "link": "https://www.tagesschau.de/ausland/europa/pistorius-ukraine-angriffe-usa-kritik-100.html",
+      "description": "Nach der ukrainischen Attacke auf die Krim-Brücke kritisierten die USA Kiews Angriffe - ohne Russlands Zerstörung ziviler Ziele in der Ukraine zu erwähnen. Verteidigungsminister Pistorius reagierte mit deutlichen Worten.",
+      "date": "2026-11-17T21:20:52+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/europa/frankreich-proteste-254.html",
+      "title": "Sozialproteste in Frankreich reißen nicht ab",
+      "link": "https://www.tagesschau.de/ausland/europa/frankreich-proteste-254.html",
+      "description": "Wieder gab es in Frankreich Streiks und Demonstrationen für höhere Gehälter und bessere Bildungsbedingungen. Bei der Zahl der Teilnehmer unterschieden sich die Angaben deutlich.",
+      "date": "2026-11-17T20:02:01+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/video/video-1685530.html",
+      "title": "Wirtschaft vor acht vom 17.11.2026",
+      "link": "https://www.tagesschau.de/video/video-1685530.html",
+      "description": "Wirtschaft vor acht vom 17.11.2026",
+      "date": "2026-11-17T19:01:16+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/europa/krim-bruecke-152.html",
+      "title": "Krieg gegen die Ukraine: Wie schwer ist die Krim-Brücke getroffen?",
+      "link": "https://www.tagesschau.de/ausland/europa/krim-bruecke-152.html",
+      "description": "Die Krim-Brücke ist nicht nur eine wichtige Verbindung zwischen Russland und der annektierten Krim. Sie ist auch ein Symbol für Russlands Herrschaft. Nun hat die Ukraine die Brücke mit einem Großangriff schwer beschädigt. Was bedeutet das?",
+      "date": "2026-11-17T18:59:39+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/amerika/usa-masern-104.html",
+      "title": "USA gelten nicht mehr als masernfrei",
+      "link": "https://www.tagesschau.de/ausland/amerika/usa-masern-104.html",
+      "description": "Mehr als ein Vierteljahrhundert lang galten die USA als masernfreies Land. Diesen Status haben die Vereinigten Staaten jetzt verloren. Immer wieder kommt es zu großen Ausbrüchen der hochansteckenden Krankheit.",
+      "date": "2026-11-17T18:37:07+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
+      "title": "Jensen Huang kann sich Rückkehr an Nvidia-Spitze vorstellen",
+      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
+      "description": "Der wegen einer Affäre mit einer mutmaßlichen chinesischen Spionin zurückgetretene Chef des US-Chipkonzerns Nvidia hat gravierende Fehler eingeräumt. Doch sollte der Vorstand das wünschen, würde er gerne an die Unternehmensspitze zurückkehren.",
+      "date": "2026-11-17T18:03:42+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/europa/serbien-parlament-studentische-liste-100.html",
+      "title": "\"Zum ersten Mal nach 14 Jahren echte Vertreter des Volkes\"",
+      "link": "https://www.tagesschau.de/ausland/europa/serbien-parlament-studentische-liste-100.html",
+      "description": "Nach dem historischen Wahlsieg der Studentenbewegung ist das serbische Parlament erstmals zusammengetreten. Doch nach einer reibungslosen Machtübergabe durch die Partei von Ex-Präsident Vucic sieht es nicht aus. Von Silke Hahne.",
+      "date": "2026-11-17T17:35:34+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-stromsteuer-merz-100.html",
+      "title": "Showdown im Koalitionsausschuss: Bekommt der Kanzler seinen Willen?",
+      "link": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-stromsteuer-merz-100.html",
+      "description": "Bei einem Koalitionsausschuss wird zurzeit nach Milliarden gesucht, um die Stromsteuer senken zu können. Zuvor hatte sich Kanzler Merz weit aus dem Fenster gelehnt. Setzt er sein Versprechen durch? Von N. Kohnert.",
+      "date": "2026-11-17T16:52:59+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/industrie-aufschwung-jobabbau-100.html",
+      "title": "Warum eine Konjunkturerholung noch kein Ende der Jobkrise bedeutet",
+      "link": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/industrie-aufschwung-jobabbau-100.html",
+      "description": "Aus der Industrie kommen vorsichtige Zeichen der Zuversicht. Trotzdem könnte der Stellenabbau Experten zufolge erst einmal weitergehen. Warum ein Schub für den Arbeitsmarkt auf sich warten lässt. Von Alina Leimbach.",
+      "date": "2026-11-17T16:47:06+00:00",
+      "category": "Wirtschaft",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/ausland/amerika/trump-schmutzige-bombe-iran-100.html",
+      "title": "USA prüfen mögliche Anschlagspläne Irans auf Washington",
+      "link": "https://www.tagesschau.de/ausland/amerika/trump-schmutzige-bombe-iran-100.html",
+      "description": "Der US-Sender CNN berichtet über iranische Anschlagspläne, die die Zündung einer sogenannten schmutzigen Bombe in Washington beinhalten sollen. US-Präsident Trump versichert, die USA nähmen das \"sehr ernst\" - und droht Teheran.",
+      "date": "2026-11-17T16:36:43+00:00",
+      "category": "International",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/gesellschaft/klimawandel-huertgenwald-zukunft-100.html",
+      "title": "Zarte Hoffnung nach der Brandkatastrophe im Hürtgenwald",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/klimawandel-huertgenwald-zukunft-100.html",
+      "description": "Hunderte Einsatzkräfte kämpften im August gegen die Flammen im Hürtgenwald. Zurück blieb eine verwüstete Landschaft. Doch es gibt Hoffnung: Erste Pflanzen keimen und deuten auf eine Erholung der Natur hin. Von Jan Koch.",
+      "date": "2026-11-17T15:53:57+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
+    },
+    {
+      "id": "https://www.tagesschau.de/inland/gesellschaft/spion-russland-festnahme-brandenburg-100.html",
+      "title": "Festnahme in Brandenburg: Wie ein Ukrainer für Russland spioniert haben soll",
+      "link": "https://www.tagesschau.de/inland/gesellschaft/spion-russland-festnahme-brandenburg-100.html",
+      "description": "Mitte Oktober ließ der Generalbundesanwalt in Eisenhüttenstadt einen Ukrainer festnehmen, der für einen russischen Geheimdienst spioniert haben soll. Recherchen von ARD-Hauptstadtstudio und SWR verdeutlichen den Umfang des mutmaßlichen Verrats.",
+      "date": "2026-11-17T15:53:40+00:00",
+      "category": "Politik",
+      "source": "www.tagesschau.de"
     },
     {
       "id": "https://www.tagesschau.de/inland/gesellschaft/starker-anstieg-bei-pflegegutachten-vor-geplanter-reform-100.html",
@@ -83,24 +650,6 @@
       "source": "www.tagesschau.de"
     },
     {
-      "id": "https://www.heise.de/news/iX-Workshop-Aufgaben-eines-Informationssicherheitsbeauftragten-11503280.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "heise-Angebot: iX-Workshop: Aufgaben eines Informationssicherheitsbeauftragten",
-      "link": "https://www.heise.de/news/iX-Workshop-Aufgaben-eines-Informationssicherheitsbeauftragten-11503280.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Sich mit der Rolle des Informationssicherheitsbeauftragten vertraut machen: die Anforderungen verstehen und die notwendigen Kompetenzen erwerben.",
-      "date": "2026-11-17T13:00:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/news/Grosse-Marken-lieferten-Malware-Skript-durch-Lieferkettenangriff-aus-11527514.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Große Marken lieferten Malware-Skript durch Lieferkettenangriff aus",
-      "link": "https://www.heise.de/news/Grosse-Marken-lieferten-Malware-Skript-durch-Lieferkettenangriff-aus-11527514.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Über die Testplattform Optimizely gelangte am Montag ein Malware-Skript auf Webseiten. Davon waren namhafte Marken betroffen.",
-      "date": "2026-11-17T13:00:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
       "id": "https://www.tagesschau.de/ausland/europa/deutschland-ukraine-hilfe-flugabwehr-100.html",
       "title": "Deutschland kauft neue Flugabwehrraketen für Ukraine",
       "link": "https://www.tagesschau.de/ausland/europa/deutschland-ukraine-hilfe-flugabwehr-100.html",
@@ -108,24 +657,6 @@
       "date": "2026-11-17T12:57:56+00:00",
       "category": "International",
       "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.heise.de/news/IONOS-bekommt-neuen-Chef-SAP-Vorstand-Saueressig-uebernimmt-11527785.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "IONOS bekommt neuen Chef: SAP-Vorstand Saueressig übernimmt",
-      "link": "https://www.heise.de/news/IONOS-bekommt-neuen-Chef-SAP-Vorstand-Saueressig-uebernimmt-11527785.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Thomas Saueressig, bisher SAP-Vorstand, wird zum 1. April 2027 neuer Vorstandsvorsitzender von Ionos. Achim Weiß soll in den Aufsichtsrat wechseln.",
-      "date": "2026-11-17T12:53:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/news/Movie2k-to-Angeklagter-soll-40-000-Bitcoin-abgeben-bliebe-aber-Milliardaer-11527723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Richter bietet movie2k-Angeklagtem Deal: 40.000 Bitcoin, er bliebe Milliardär",
-      "link": "https://www.heise.de/news/Movie2k-to-Angeklagter-soll-40-000-Bitcoin-abgeben-bliebe-aber-Milliardaer-11527723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Seit Anfang des Jahres läuft das Gerichtsverfahren über „movie2k.to“. Nun gibt es ein Angebot des Richters, das einem Angeklagten 16.000 Bitcoin lassen würde.",
-      "date": "2026-11-17T12:50:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
     },
     {
       "id": "https://www.tagesschau.de/wirtschaft/konjunktur/eu-kommission-wachstumsprognose-deutschland-100.html",
@@ -137,33 +668,6 @@
       "source": "www.tagesschau.de"
     },
     {
-      "id": "https://www.heise.de/hintergrund/Zahlen-bitte-Gemini-12-Letzte-Station-vor-Apollos-Weg-zum-Mond-11527474.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Zahlen, bitte! Gemini 12: Letzte Station vor Apollos Weg zum Mond",
-      "link": "https://www.heise.de/hintergrund/Zahlen-bitte-Gemini-12-Letzte-Station-vor-Apollos-Weg-zum-Mond-11527474.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Gemini 12 lieferte die letzten Raumflugerkenntnisse vor dem Apollo-Programm – und Buzz Aldrin schoss das erste Selfie im All.",
-      "date": "2026-11-17T12:41:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/hintergrund/Adobes-Designchef-im-Interview-Was-Kreative-noch-selbst-koennen-muessen-11523224.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "title": "heise+ | Adobes Designchef im Interview: Was Kreative noch selbst können müssen",
-      "link": "https://www.heise.de/hintergrund/Adobes-Designchef-im-Interview-Was-Kreative-noch-selbst-koennen-muessen-11523224.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "description": "Gestaltende Agenten und Vibe-Coding-Konkurrenz: KI verändert die kreative Welt. Wir sprachen mit Adobes Designchef über die Zukunft der Adobe Creative Cloud.",
-      "date": "2026-11-17T12:30:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/news/KI-Chatbot-von-Proton-Lumo-bekommt-mit-Desktop-App-Zugriff-auf-Proton-Mail-11527592.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "KI-Chatbot von Proton: Lumo bekommt mit Desktop-App Zugriff auf Proton Mail",
-      "link": "https://www.heise.de/news/KI-Chatbot-von-Proton-Lumo-bekommt-mit-Desktop-App-Zugriff-auf-Proton-Mail-11527592.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "KI-Chatbot Lumo kann mit der neuen Desktop-App auf Dateisystem und mehr zugreifen. Protons CEO stand gerade wegen Sicherheitsbedenken in der Kritik.",
-      "date": "2026-11-17T12:25:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
       "id": "https://www.tagesschau.de/ausland/europa/finnischer-praesident-stubb-100.html",
       "title": "Finnischer Präsident Stubb: Mit großen Egos weiß er umzugehen",
       "link": "https://www.tagesschau.de/ausland/europa/finnischer-praesident-stubb-100.html",
@@ -171,15 +675,6 @@
       "date": "2026-11-17T12:15:51+00:00",
       "category": "International",
       "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.heise.de/news/RHEL-Co-10-3-Warum-Admins-vor-dem-Update-besser-genau-hinschauen-11527588.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "RHEL & Co. 10.3: Warum Admins vor dem Update besser genau hinschauen",
-      "link": "https://www.heise.de/news/RHEL-Co-10-3-Warum-Admins-vor-dem-Update-besser-genau-hinschauen-11527588.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "RHEL, AlmaLinux und Rocky Linux 10.3 sind da: Die Updates bauen Sicherheitsfunktionen aus, erfordern bei Grafana und Containern aber Vorarbeit beim Upgrade.",
-      "date": "2026-11-17T12:14:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
     },
     {
       "id": "https://www.tagesschau.de/inland/gesellschaft/gluecksatlas-166.html",
@@ -218,78 +713,6 @@
       "source": "www.tagesschau.de"
     },
     {
-      "id": "https://www.tagesschau.de/ausland/europa/tuerkei-sender-razzia-100.html",
-      "title": "Türkei stellt oppositionsnahen Sender unter Zwangsverwaltung",
-      "link": "https://www.tagesschau.de/ausland/europa/tuerkei-sender-razzia-100.html",
-      "description": "Die türkische Regierung geht erneut gegen oppositionsnahe Medien vor: Die Polizei hat den Sitz des Senders Sözcü TV durchsucht und Mitarbeiter festgenommen. Das Unternehmen wurde unter staatliche Zwangsverwaltung gestellt.",
-      "date": "2026-11-17T11:32:29+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.heise.de/news/Passwort-Sammler-BugMeNot-streicht-die-Segel-11527697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Passwort-Sammler BugMeNot streicht die Segel",
-      "link": "https://www.heise.de/news/Passwort-Sammler-BugMeNot-streicht-die-Segel-11527697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Ohne weitere Hinweise hat der Zugangsdaten-Sammeldienst BugMeNot die Pforten geschlossen. Zum Abschied gibt es ein Rätsel.",
-      "date": "2026-11-17T11:31:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/tests/Queen-s-Domain-angespielt-Das-Anti-Blockbuster-Abenteuer-11527715.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "„Queen’s Domain“ angespielt: Das Anti-Blockbuster-Abenteuer",
-      "link": "https://www.heise.de/tests/Queen-s-Domain-angespielt-Das-Anti-Blockbuster-Abenteuer-11527715.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Das Retro-Rollenspiel „Queen’s Domain“ verzückt weniger durch eine hübsche Hülle als durch ein durchdachtes und liebevolles Spielprinzip.",
-      "date": "2026-11-17T11:27:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/news/Gemini-Notebooks-So-werden-aus-deinen-Notizen-jetzt-interaktive-Webseiten-11527663.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Gemini Notebooks: So werden aus deinen Notizen jetzt interaktive Webseiten",
-      "link": "https://www.heise.de/news/Gemini-Notebooks-So-werden-aus-deinen-Notizen-jetzt-interaktive-Webseiten-11527663.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Das Notiz- und Recherchetool Gemini Notebook kann jetzt durch ein neues Feature sämtliche Informationen aus einem Projekt in eine Webseite verwandeln.",
-      "date": "2026-11-17T11:10:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/tests/Bitcoin-Heizung-im-Test-Lohnt-sich-der-Ofen-3-Pro-XL-11501794.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "title": "heise+ | Bitcoin-Heizung im Test: Lohnt sich der Ofen 3 Pro XL?",
-      "link": "https://www.heise.de/tests/Bitcoin-Heizung-im-Test-Lohnt-sich-der-Ofen-3-Pro-XL-11501794.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "description": "Der Ofen 3 heizt nicht nur die Wohnung, sondern schürft nebenher auch Bitcoins. Die sollen die Heizkosten drücken. Wir haben ausprobiert, ob sich das lohnt.",
-      "date": "2026-11-17T11:00:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/news/Zweiteiliges-Webinar-Verteidigung-gegen-php2shell-Co-mit-Wazuh-11525947.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "heise-Angebot: Zweiteiliges Webinar: Verteidigung gegen php2shell & Co mit Wazuh",
-      "link": "https://www.heise.de/news/Zweiteiliges-Webinar-Verteidigung-gegen-php2shell-Co-mit-Wazuh-11525947.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Mit Wazuh lassen sich Logs auswerten, aber auch ungestopfte Sicherheitslücken erkennen. Unser zweiteiliges Webinar zeigt, wo das Opensource-Werkzeug hilft.",
-      "date": "2026-11-17T11:00:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/news/Anders-als-Pangram-Kann-man-erkennen-ob-eine-Idee-von-ChatGPT-stammt-11527621.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "Kann man erkennen, ob eine Idee von ChatGPT stammt?",
-      "link": "https://www.heise.de/news/Anders-als-Pangram-Kann-man-erkennen-ob-eine-Idee-von-ChatGPT-stammt-11527621.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "Bisher untersuchen KI-Detektoren vor allem die Wortwahl und wiederkehrende Muster in einem Text. Ein neues Modell analysiert stattdessen die Ideen eines Textes.",
-      "date": "2026-11-17T10:55:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
-      "id": "https://www.heise.de/news/KubeCon-2026-Kontrolle-ueber-KI-Agenten-in-Kubernetes-Umgebungen-11526358.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "title": "KubeCon 2026: Wie Unternehmen KI-Agenten im Griff behalten",
-      "link": "https://www.heise.de/news/KubeCon-2026-Kontrolle-ueber-KI-Agenten-in-Kubernetes-Umgebungen-11526358.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "description": "KI-Agenten im Griff: Auf der KubeCon NA 2026 ging es um Zugriffsregeln von Mirantis, Kostenkontrolle mit Splunk und überprüfbare Identitäten durch ANS.",
-      "date": "2026-11-17T10:45:00+00:00",
-      "category": "Technologie",
-      "source": "www.heise.de"
-    },
-    {
       "id": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriffe-212.html",
       "title": "Angriffe auf die Ukraine: Zwei wichtige Brücken in Kiew getroffen",
       "link": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriffe-212.html",
@@ -299,38 +722,11 @@
       "source": "www.tagesschau.de"
     },
     {
-      "id": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-ki-dow-nvidia-100.html",
-      "title": "Marktbericht: DAX-Rückschlag vor Nvidia-Zahlen",
-      "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-ki-dow-nvidia-100.html",
-      "description": "Die Unsicherheiten in der Tech-Branche machen die Anleger nervös. Vor den Quartalszahlen von Nvidia fahren die Anleger ihre Risiken zurück. Im Fokus stehen aber neue Vorwürfe gegen die Deutsche Bank.",
-      "date": "2026-11-17T09:57:57+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/asien/trump-asien-reise-100.html",
-      "title": "Trump auf Gipfel-Marathon in Asien - Symbolik statt Substanz?",
-      "link": "https://www.tagesschau.de/ausland/asien/trump-asien-reise-100.html",
-      "description": "Nur wenige Minuten pro Gipfel - viel Zeit nimmt sich US-Präsident Trump bei seinen Treffen in Asien nicht. Vor allem Verbündete müssen sich mit engen Zeitfenstern begnügen. Xi und Putin dürften mehr Aufmerksamkeit bekommen. Von S. Jackisch.",
-      "date": "2026-11-17T09:49:58+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
       "id": "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-datenleak-100.html",
       "title": "Datenleck: Interne Dokumente belasten die Deutsche Bank",
       "link": "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-datenleak-100.html",
       "description": "Die Schatten der Vergangenheit holen die Deutsche Bank erneut ein. Informationen aus einem Datenleck offenbaren fragwürdige Geschäftspraktiken und mutmaßliche Probleme bei den Kontrollen beim größten deutschen Geldhaus.",
       "date": "2026-11-17T09:42:53+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1685166.html",
-      "title": "Update Wirtschaft vom 17.11.2026",
-      "link": "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1685166.html",
-      "description": "Update Wirtschaft vom 17.11.2026",
-      "date": "2026-11-17T09:11:26+00:00",
       "category": "Wirtschaft",
       "source": "www.tagesschau.de"
     },
@@ -349,15 +745,6 @@
       "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-einschraenkungen-export-ki-chips-nvidia-100.html",
       "description": "Die US-Regierung verschärft ihre Ausfuhrregeln für hochmoderne KI-Chips und will damit nach dem Nvidia-Skandal Schlupflöcher nach China schließen. Die Tech-Aktien in den USA sackten nach der Bekanntgabe ab.",
       "date": "2026-11-17T07:59:32+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/unternehmen/tag-der-wohnungswirtschaft-100.html",
-      "title": "Tag der Wohnungswirtschaft: Bauen verteuert sich weiter - trotz aller Versprechen",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/tag-der-wohnungswirtschaft-100.html",
-      "description": "Trotz Beteuerungen der Politik: Bauen wird in Deutschland immer teurer. Neben globalen Einflüssen wie etwa steigende Energiepreise seien viele Probleme aber hausgemacht, heißt es aus der Branche. Von Axel John.",
-      "date": "2026-11-17T07:57:10+00:00",
       "category": "Wirtschaft",
       "source": "www.tagesschau.de"
     },
@@ -389,42 +776,6 @@
       "source": "www.tagesschau.de"
     },
     {
-      "id": "https://www.tagesschau.de/ausland/europa/europa-ukraine-usa-100.html",
-      "title": "Krieg gegen die Ukraine: Erste Vorgespräche mit Europas Unterhändlern",
-      "link": "https://www.tagesschau.de/ausland/europa/europa-ukraine-usa-100.html",
-      "description": "Europäische Unterhändler haben erste Vorgespräche mit den USA und der Ukraine über eine Beendigung des Kriegs geführt - und dabei die Vertreter instruiert, die später mit Russland verhandeln.",
-      "date": "2026-11-17T03:28:15+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/digitales/ki-chipindustrie-nvidia-100.html",
-      "title": "Nach Huang-Affäre: Bald alles neu in der KI-Chipindustrie?",
-      "link": "https://www.tagesschau.de/wirtschaft/digitales/ki-chipindustrie-nvidia-100.html",
-      "description": "Konkurrenten wie AMD oder Qualcomm reiben sich nach dem Abgang von Huang als CEO bei Nvidia schon die Hände. Was ist dran am möglichen Umbruch der Chip-Branche - und wie viel hat er tatsächlich mit dem Abtritt Huangs zu tun? Von R. Spiegelhauer.",
-      "date": "2026-11-17T03:16:17+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/europa/proteste-frankreich-188.html",
-      "title": "Proteste in Frankreich: Die Wut der Schüler, die Ohnmacht der Schulen",
-      "link": "https://www.tagesschau.de/ausland/europa/proteste-frankreich-188.html",
-      "description": "Gewerkschaften und Gelbwesten haben in Frankreich für heute erneut zu Protesten aufgerufen. Ein Teil der Schülerinnen und Schüler will sich daran beteiligen. Schulleiter fühlen sich alleingelassen. Von Julia Borutta.",
-      "date": "2026-11-17T02:20:12+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/regional/brandenburg/tesla-investitionen-brandenburg-100.html",
-      "title": "Tesla kündigt Milliarden-Investition in Werk in Brandenburg an",
-      "link": "https://www.tagesschau.de/inland/regional/brandenburg/tesla-investitionen-brandenburg-100.html",
-      "description": "Tesla will drei Milliarden Euro für den Ausbau des Werks in Grünheide östlich von Berlin ausgeben. Der US-Elektroautobauer will damit ein neues Produktionsgebäude finanzieren. Künftig sollen dort \"Cybercabs\" - fahrerlose Taxis - gebaut werden.",
-      "date": "2026-11-16T20:48:40+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
       "id": "https://www.tagesschau.de/inland/innenpolitik/ruanda-return-hub-abschiebezentrum-100.html",
       "title": "Abschiebezentrum geplant: Was steckt hinter den Ruanda-Plänen?",
       "link": "https://www.tagesschau.de/inland/innenpolitik/ruanda-return-hub-abschiebezentrum-100.html",
@@ -434,105 +785,6 @@
       "source": "www.tagesschau.de"
     },
     {
-      "id": "https://www.tagesschau.de/video/video-1684932.html",
-      "title": "Wirtschaft vor acht vom 16.11.2026",
-      "link": "https://www.tagesschau.de/video/video-1684932.html",
-      "description": "Wirtschaft vor acht vom 16.11.2026",
-      "date": "2026-11-16T18:56:47+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/europa/eu-staaten-abschiebungen-asylbewerber-ruanda-100.html",
-      "title": "EU-Staaten wollen 2027 Abschiebezentrum in Ruanda eröffnen",
-      "link": "https://www.tagesschau.de/ausland/europa/eu-staaten-abschiebungen-asylbewerber-ruanda-100.html",
-      "description": "Fünf EU-Staaten, darunter Deutschland, planen für das kommende Jahr die Eröffnung des ersten Abschiebezentrums in Ruanda. Dorthin sollen Asylbewerber gebracht werden, die nicht in ihre Herkunftsländer abgeschoben werden können.",
-      "date": "2026-11-16T17:07:43+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/unternehmen/wohin-steuert-die-stahlindustrie-gipfeltreffen-100.html",
-      "title": "Deutschland will die eigene Stahlindustrie erhalten - zu welchem Preis?",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/wohin-steuert-die-stahlindustrie-gipfeltreffen-100.html",
-      "description": "Deutschland ohne eigene Stahlindustrie - das würde nicht nur weniger Jobs, sondern auch die komplette Abhängigkeit von Importen bedeuten. Doch die Branche setzt auf Grünen Stahl, und genau das könnte zum Problem werden. Von M. Ortmann und T. Kramer.",
-      "date": "2026-11-16T16:36:35+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/europa/eu-sanktionen-russland-propaganda-banken-100.html",
-      "title": "EU sanktioniert russische Propagandisten, Hacker, Unternehmer",
-      "link": "https://www.tagesschau.de/ausland/europa/eu-sanktionen-russland-propaganda-banken-100.html",
-      "description": "Russlands reichste Unternehmerin, eine Propaganda-Fabrik, Hackergruppen, Medien-Promis und Banken: Die EU hat eine große Bandbreite von Akteuren mit weiteren Sanktionen belegt. Auch Unternehmen aus China und den Emiraten sind betroffen.",
-      "date": "2026-11-16T16:06:44+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/stahl-eu-china-massnahmen-100.html",
-      "title": "Die EU will europäischen Stahl konkurrenzfähig machen",
-      "link": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/stahl-eu-china-massnahmen-100.html",
-      "description": "Die EU möchte dafür sorgen, dass hiesige Stahlkonzerne es leichter haben gegen die Übermacht aus China. Dafür werden inzwischen einige Maßnahmen ergriffen. Doch reichen sie aus? Von Jean-Marie Magro.",
-      "date": "2026-11-16T14:53:07+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/stahlgipfel-klimawandel-produktion-100.html",
-      "title": "Stahlgipfel in Salzgitter: Unternehmen fordern Entlastung beim Strompreis",
-      "link": "https://www.tagesschau.de/wirtschaft/stahlgipfel-klimawandel-produktion-100.html",
-      "description": "Strom ist für die Stahlindustrie ein entscheidender Faktor: Beim Stahlgipfel in Salzgitter forderte die Branche deshalb einen verlässlichen Strompreis. Bundeswirtschaftsministerin Reiche verwies auf bereits Erreichtes.",
-      "date": "2026-11-16T14:52:36+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-fehler-100.html",
-      "title": "Älterer Programmfehler löste Ausfall von Microsoft-Diensten aus",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-fehler-100.html",
-      "description": "Ausfälle bei Outlook oder Teams - und das über viele Stunden. Ende letzter Woche hatte die Microsoft-Störung weltweit für massive Schäden gesorgt. Jetzt ist klar, wie es dazu kommen konnte - und warum die Reparatur so lange gedauert hat.",
-      "date": "2026-11-16T14:22:45+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/schwesig-ministerpraesidentin-mecklenburg-vorpommern-wiedergewaehlt-100.html",
-      "title": "SPD-Politikerin Schwesig erneut zur Ministerpräsidentin gewählt",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/schwesig-ministerpraesidentin-mecklenburg-vorpommern-wiedergewaehlt-100.html",
-      "description": "Der Schweriner Landtag hat Mecklenburg-Vorpommerns Ministerpräsidentin Schwesig wiedergewählt. Das Parlament bestätigte die SPD-Politikerin für weitere fünf Jahre im Amt. Schwesig führt MV bereits seit 2017.",
-      "date": "2026-11-16T13:23:01+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/merz-stromsteuer-100.html",
-      "title": "Merz erwartet Einigung zur Stromsteuer im Koalitionsausschuss",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/merz-stromsteuer-100.html",
-      "description": "Die Bundesregierung will die Stromsteuer senken - bislang war jedoch unklar, wie das gegenfinanziert werden soll. Jetzt gibt es offenbar eine Möglichkeit: Kanzler Merz zeigte sich sicher, dass sich SPD und Union morgen einigen.",
-      "date": "2026-11-16T12:46:45+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/unternehmen/commerzbank-unicredit-eu-genehmigung-100.html",
-      "title": "EU gibt UniCredit grünes Licht für Commerzbank-Übernahme",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/commerzbank-unicredit-eu-genehmigung-100.html",
-      "description": "Die EU hat ihr Go für die umstrittene Übernahme der Commerzbank durch die italienische Großbank UniCredit gegeben. Die Kommission sieht \"keine wettbewerbsrechtlichen Bedenken\". Die Fusion rückt näher.",
-      "date": "2026-11-16T11:50:50+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/energie/energieverbrauch-deutsche-industrie-100.html",
-      "title": "Energieverbrauch der Industrie sinkt wegen hoher Preise",
-      "link": "https://www.tagesschau.de/wirtschaft/energie/energieverbrauch-deutsche-industrie-100.html",
-      "description": "Wegen hoher Preise und weniger Produktion hat die deutsche Industrie 2025 weniger Energie verbraucht. Dabei wird Kohle immer unwichtiger. Doch auch die Erneuerbaren spielen eine eher untergeordnete Rolle.",
-      "date": "2026-11-16T11:49:07+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
       "id": "https://www.tagesschau.de/wissen/gesundheit/who-antibiotika-resistenzen-100.html",
       "title": "WHO warnt vor wachsenden Antibiotika-Resistenzen",
       "link": "https://www.tagesschau.de/wissen/gesundheit/who-antibiotika-resistenzen-100.html",
@@ -551,186 +803,6 @@
       "source": "www.tagesschau.de"
     },
     {
-      "id": "https://www.tagesschau.de/investigativ/ndr/offshore-bundesregierung-100.html",
-      "title": "Offshore-Windparks: Bundesregierung macht millionenschweres Angebot",
-      "link": "https://www.tagesschau.de/investigativ/ndr/offshore-bundesregierung-100.html",
-      "description": "In der Offshore-Branche stehen viele Projekte auf der Kippe. Nun hat das Wirtschaftsministerium der Energiebranche ein Angebot vorgelegt. Dem NDR liegt das Eckpunktepapier vor. Von Verena von Ondarza.",
-      "date": "2026-11-16T11:08:19+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/haushalt-soeder-stromsteuer-moeglich-koalition-muetterrente-100.html",
-      "title": "Söder hält Stromsteuersenkung doch noch für möglich",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/haushalt-soeder-stromsteuer-moeglich-koalition-muetterrente-100.html",
-      "description": "Morgen ist die umstrittene Stromsteuer Thema im Koalitionsausschuss. CSU-Chef Söder glaubt noch an eine Einigung und nennt Möglichkeiten, die Milliarden für eine Senkung aufzutreiben. An ein Thema will er aber nicht ran.",
-      "date": "2026-11-16T08:24:05+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-chefposten-100.html",
-      "title": "Ex-Nvidia-Chef Huang arbeitet offenbar bereits an seinem Comeback",
-      "link": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-chefposten-100.html",
-      "description": "Seine Affären - auch mit einer mutmaßlichen chinesischen Spionin - haben mehr als eine Billion Dollar Börsenwert vernichtet. Damit war der Rücktritt des Nvidia-Chefs unvermeidlich. Nun plant Jensen Huang offenbar bereits sein Comeback.",
-      "date": "2026-11-16T08:07:28+00:00",
-      "category": "Wirtschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/cyberangriffe-abwehr-bka-100.html",
-      "title": "Immer mehr Angriffe: BKA-Chef Münch fordert Ausbau der Cyberabwehr",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/cyberangriffe-abwehr-bka-100.html",
-      "description": "Deutschland sollte nach Auffassung von BKA-Chef Münch Schwachstellen bei der Abwehr von Cyberangriffen schnell schließen. Die Attacken würden mehr, schneller und professioneller, sagte er im ARD-Morgenmagazin.",
-      "date": "2026-11-16T08:05:48+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/amerika/usa-flugzeugtraeger-nahost-102.html",
-      "title": "Dritter US-Flugzeugträger erreicht laut Medienberichten Nahen Osten",
-      "link": "https://www.tagesschau.de/ausland/amerika/usa-flugzeugtraeger-nahost-102.html",
-      "description": "Das US-Militär hat seine Flotte im Nahen Osten um einen dritten Flugzeugträger ergänzt. Ob die USA dauerhaft ihre Präsenz verstärken oder einen anderen Flugzeugträger ablösen, ist unklar. Die Lage bleibt angespannt.",
-      "date": "2026-11-16T07:11:37+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/europa/estland-grenze-russland-100.html",
-      "title": "Grenzschließung zu Russland soll Estlands Sicherheit schützen",
-      "link": "https://www.tagesschau.de/ausland/europa/estland-grenze-russland-100.html",
-      "description": "In Estland ist der Ärger groß: Ab Dezember sollen deswegen Grenzübergänge zu Russland dichtgemacht werden. Anlass ist ein versuchter Anschlag auf eine Rüstungsfirma - das war nicht der erste Vorfall dieser Art. Von C. Stichler.",
-      "date": "2026-11-16T06:14:09+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/investitionsschutzgesetz-dobrindt-gutachten-verfassungswidrig-100.html",
-      "title": "Pläne der Bundesregierung: Juristen zweifeln an Gesetz gegen Vergesellschaftung",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/investitionsschutzgesetz-dobrindt-gutachten-verfassungswidrig-100.html",
-      "description": "Die Bundesregierung will Ländern die Vergesellschaftung großer Wohnungsbestände erschweren. Ein Gutachten im Auftrag der Linken kommt jedoch zu dem Schluss: Das geplante Investitionsschutzgesetz könnte in Karlsruhe scheitern. Von Alexander Budweg.",
-      "date": "2026-11-16T05:03:11+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/amerika/papst-suedamerikareise-100.html",
-      "title": "Papst besucht bedrohte Lebensräume in den Anden und im Amazonasgebiet",
-      "link": "https://www.tagesschau.de/ausland/amerika/papst-suedamerikareise-100.html",
-      "description": "Kurz vor Abschluss seiner Südamerika-Tour hat Papst Leo XIV. indigene Lebenswelten in den Anden und am Amazonas besucht. Dort kritisierte er mit deutlichen Worten Umweltverschmutzung und soziale Ungleichheit. Von Tilmann Kleinjung.",
-      "date": "2026-11-16T03:22:31+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/europa/estland-russland-grenze-geschlossen-100.html",
-      "title": "Estland schließt ab Dezember Grenzübergänge nach Russland",
-      "link": "https://www.tagesschau.de/ausland/europa/estland-russland-grenze-geschlossen-100.html",
-      "description": "Estland unterstützt die Ukraine im Kampf gegen Russland - unter anderem mit Drohnen. Eine Drohnenfabrik wurde am Wochenende angegriffen, laut Estland von russischen Agenten. Nun schließt Estland seine drei Grenzübergänge zum Nachbarland.",
-      "date": "2026-11-15T20:44:43+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/asien/israel-netanjahu-einheitsregierung-100.html",
-      "title": "Israel: Netanjahu wirbt bei Eisenkot um Einheitsregierung",
-      "link": "https://www.tagesschau.de/ausland/asien/israel-netanjahu-einheitsregierung-100.html",
-      "description": "Eisenkot oder Netanjahu? Die Parlamentswahl in Israel brachte keine eindeutige Antwort. Derzeit sucht Oppositionspolitiker Eisenkot nach Partnern für eine Koalition. Noch-Premier Netanjahu hat seine eigenen Vorstellungen. Von B. Meier.",
-      "date": "2026-11-15T20:23:26+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/heil-spd-kandidatur-100.html",
-      "title": "Heil zum angestrebten SPD-Vorsitz: \"Habe viel Zuspruch aus der Partei\"",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/heil-spd-kandidatur-100.html",
-      "description": "Die SPD sucht eine neue Parteispitze. Erster Bewerber ist Hubertus Heil. Er bekomme viel Zuspruch aus der Partei, sagte er im Bericht aus Berlin. Auch zu Vizekanzler Klingbeil äußerte er sich. Offen ließ Heil, mit welcher Frau er kandidieren will.",
-      "date": "2026-11-15T18:44:55+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/ukraine-russland-angriffe-210.html",
-      "title": "Ukraine und Russland: Serie von Angriffen - wohl auch Energieanlagen betroffen",
-      "link": "https://www.tagesschau.de/ausland/ukraine-russland-angriffe-210.html",
-      "description": "Am Wochenende hat es eine Serie russischer Angriffe auf die Ukraine gegeben - laut Präsident Selenskyj sind auch Energieanlagen darunter. Die Ukraine wiederum griff offenbar eine petrochemische Anlage in Russland an.",
-      "date": "2026-11-15T17:54:56+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/bremen-beendet-kampagne-gegen-islamismus-vorzeitig-100.html",
-      "title": "Innensenatorin: Bremen beendet Kampagne gegen Islamismus vorzeitig",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/bremen-beendet-kampagne-gegen-islamismus-vorzeitig-100.html",
-      "description": "Mit Bildern von einem Wolf im Schafspelz hatte der Verfassungsschutz vor Islamisten gewarnt. Bremens Innensenatorin sagt nun: Das Ziel der Kampagne war richtig, die Umsetzung aber nicht.",
-      "date": "2026-11-15T16:16:20+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/gesellschaft/mobile-notaufnahme-saarland-100.html",
-      "title": "Mobile Notaufnahme im Saarland: Nicht mehr in die Klinik",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/mobile-notaufnahme-saarland-100.html",
-      "description": "Klinikaufenthalte werden von vielen älteren Menschen gefürchtet, auch wenn sie nur der Untersuchung dienen. Im Saarland läuft deshalb seit September ein Modellprojekt, bei dem ein Diagnostik-Lkw Pflegeheime anfährt. Von Emil Mura.",
-      "date": "2026-11-15T15:37:17+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/gesellschaft/volkstrauertag-bundestag-104.html",
-      "title": "Bundesweites Gedenken zum Volkstrauertag - auch im Bundestag",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/volkstrauertag-bundestag-104.html",
-      "description": "Der Volkstrauertag ist kein gesetzlicher Feiertag, aber ein staatlicher Gedenktag. Im ganzen Land wird heute an Kriegsopfer erinnert. In diesem Jahr zusammen mit dem österreichischem Bundespräsidenten Van der Bellen. Er rief zu mehr Mitgefühl auf.",
-      "date": "2026-11-15T15:24:11+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/europa/bandenkriminalitaet-schweden-100.html",
-      "title": "Banden in Schweden rekrutieren zunehmend junge Frauen",
-      "link": "https://www.tagesschau.de/ausland/europa/bandenkriminalitaet-schweden-100.html",
-      "description": "In Schweden werden zunehmend junge Frauen und Mädchen für kriminelle Netzwerke rekrutiert - etwa als Kuriere für Drogen und Waffen. Die Banden locken mit dem Versprechen von schnellem Geld und Anerkennung. Von Arne Bartram.",
-      "date": "2026-11-15T14:59:47+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/spd-spitze-klingbeil-heil-100.html",
-      "title": "Heils Kandidatur für SPD-Vorsitz aktiviert Klingbeils Fürsprecher",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/spd-spitze-klingbeil-heil-100.html",
-      "description": "Der Erste wagt sich aus der Deckung: Ex-Arbeitsminister Heil will die SPD führen. Was macht Parteichef Klingbeil? Tritt er beim Parteitag im Januar erneut für den Vorsitz an? Nun sprachen sich weitere namhafte SPD-Politiker für ihn aus.",
-      "date": "2026-11-15T13:30:13+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/ausland/asien/hamas-kommandeur-gazastreifen-getoetet-100.html",
-      "title": "Israelischer Angriff im Gazastreifen: Ranghoher Hamas-Kommandeur tot",
-      "link": "https://www.tagesschau.de/ausland/asien/hamas-kommandeur-gazastreifen-getoetet-100.html",
-      "description": "Die israelische Armee hat im Gazastreifen einen ranghohen Kommandeur der Hamas getötet. Samir Abu Junis soll einer der wichtigsten Köpfe bei der Planung der Attacke auf Israel am 7. Oktober 2023 gewesen sein. Die Hamas bestätigte seinen Tod.",
-      "date": "2026-11-15T12:46:16+00:00",
-      "category": "International",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/gesellschaft/arzttermine-selbst-zahlen-debatte-100.html",
-      "title": "Arzttermin gegen Bezahlung - warum der Vorstoß für Empörung sorgt",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/arzttermine-selbst-zahlen-debatte-100.html",
-      "description": "Schneller zum Facharzt - aber nur wenn man die Behandlung selbst zahlt: Kassenärzte-Chef Gassen hat mit seinen Äußerungen zu Terminen gegen Aufpreis breite Kritik ausgelöst. Wie ist die Situation für Kassenpatienten - und was macht die Politik?",
-      "date": "2026-11-15T12:42:46+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/gesellschaft/sachsen-anhalt-afd-migranten-residenzpflicht-100.html",
-      "title": "Sachsen-Anhalt: Weggehen dürfen, wenn es gefährlich wird",
-      "link": "https://www.tagesschau.de/inland/gesellschaft/sachsen-anhalt-afd-migranten-residenzpflicht-100.html",
-      "description": "In rund einem Monat will sich der AfD-Politiker Siegmund in Sachsen-Anhalt zum Ministerpräsidenten wählen lassen. Viele Migranten überlegen, wegzuziehen. Doch was gilt für Asylsuchende mit einer Wohnsitzauflage? Von L. Pfeuffer-Rooschüz.",
-      "date": "2026-11-15T11:10:03+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
       "id": "https://www.tagesschau.de/wissen/gesundheit/vapes-baller-liquids-drogen-jugendliche-100.html",
       "title": "Illegale Drogen in Vapes - \"Baller-Liquids\" gefährden Jugendliche",
       "link": "https://www.tagesschau.de/wissen/gesundheit/vapes-baller-liquids-drogen-jugendliche-100.html",
@@ -746,24 +818,6 @@
       "description": "Sie fallen nicht auf und sind einfach zu bekommen: sogenannte Baller-Liquids - starke Drogen für die E-Zigarette. Die Flüssigkeiten werden gezielt an Teenager verkauft. Doch ihr schneller Rausch kann lebensbedrohlich sein. Von Jenny Witt.",
       "date": "2026-11-15T04:11:26+00:00",
       "category": "Gesundheit",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/reaktionen-selbstzahler-arzttermine-100.html",
-      "title": "Selbstzahlen oder lange Wartezeit? Kritik an Kassenärzte-Chef",
-      "link": "https://www.tagesschau.de/inland/reaktionen-selbstzahler-arzttermine-100.html",
-      "description": "Schneller zum Facharzt, wenn man den Termin selbst zahlt? Wegen der anstehenden Honorarkürzungen hält Kassenärzte-Chef Gassen das für wahrscheinlich. Er handelte sich damit deutliche Kritik ein.",
-      "date": "2026-11-14T19:45:01+00:00",
-      "category": "Politik",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/inland/innenpolitik/heil-spd-vorsitz-kandidatur-100.html",
-      "title": "Ex-Arbeitsminister Hubertus Heil kandidiert für SPD-Vorsitz",
-      "link": "https://www.tagesschau.de/inland/innenpolitik/heil-spd-vorsitz-kandidatur-100.html",
-      "description": "Mitte Januar wird auf einem Bundesparteitag die komplette Führung der SPD neu gewählt. Ex-Arbeitsminister Heil hat laut ARD-Hauptstadtstudio jetzt als Erster offiziell seine Kandidatur für den Vorsitz angekündigt. Von Moritz Rödle.",
-      "date": "2026-11-14T18:12:45+00:00",
-      "category": "Politik",
       "source": "www.tagesschau.de"
     },
     {
@@ -920,15 +974,6 @@
       "source": "www.tagesschau.de"
     },
     {
-      "id": "https://www.tagesschau.de/wissen/klima/goldabbau-ghana-abholzung-regenwald-100.html",
-      "title": "Wie die Goldsuche Natur und Lebensgrundlagen in Ghana zerstört",
-      "link": "https://www.tagesschau.de/wissen/klima/goldabbau-ghana-abholzung-regenwald-100.html",
-      "description": "In Ghana wird unter extremen Bedingungen Gold abgebaut - auch Kakaoplantagen müssen dafür weichen. Mit verheerenden Folgen: Zurück bleiben zerstörte Landschaften und verdreckte, belastete Flüsse. Von Judith Hartmann und Jakob Sax.",
-      "date": "2026-10-26T06:13:21+00:00",
-      "category": "Wissenschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
       "id": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-sommerzeit-138.html",
       "title": "Sommerzeit beendet - Uhren um eine Stunde zurückgestellt",
       "link": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-sommerzeit-138.html",
@@ -952,25 +997,7 @@
       "link": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-winterzeit-sommerzeit-114.html",
       "description": "Was einmal Energie sparen sollte, ist jetzt für viele ein Ärgernis. Die EU-Kommission schlug 2018 vor, die Zeitumstellung abzuschaffen. Nur: Welche Zeit soll gelten? Forschende haben eine Antwort. Von Wiebke Drescher.",
       "date": "2026-10-24T08:55:12+00:00",
-      "category": "Wissenschaft",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-winterzeit-sommerzeit-114.html",
-      "title": "Studie über Zeitumstellung - Welche Zeit ist besser für unsere Gesundheit?",
-      "link": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-winterzeit-sommerzeit-114.html",
-      "description": "Was einmal Energie sparen sollte, ist jetzt für viele ein Ärgernis. Die EU-Kommission schlug 2018 vor, die Zeitumstellung abzuschaffen. Nur: Welche Zeit soll gelten? Forschende haben eine Antwort. Von Wiebke Drescher.",
-      "date": "2026-10-24T08:55:12+00:00",
       "category": "Gesundheit",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wissen/klima/hitzetote-sommer-studie-100.html",
-      "title": "Etwa 50.000 Hitzetote im Sommer 2026 in Europa",
-      "link": "https://www.tagesschau.de/wissen/klima/hitzetote-sommer-studie-100.html",
-      "description": "Seit Beginn der Aufzeichnungen gab es noch nie so viele Hitzetote in Europa wie im Sommer 2026. Das hat eine britische Analyse ergeben. Die Folgen der von Menschen gemachten Klimaerwärmung werden den Forschern zufolge immer deutlicher.",
-      "date": "2026-10-23T07:14:56+00:00",
-      "category": "Wissenschaft",
       "source": "www.tagesschau.de"
     },
     {
@@ -980,15 +1007,6 @@
       "description": "Brustkrebs beim Mann ist eine seltene Krankheit. Oft wird ein Tumor deshalb erst im fortgeschrittenen Stadium diagnostiziert - dadurch geht wertvolle Therapiezeit verloren. Von Christiane Stauß.",
       "date": "2026-10-23T05:26:29+00:00",
       "category": "Gesundheit",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wissen/klima/blume-des-jahres-100.html",
-      "title": "Die Gelbe Wiesenraute ist Blume des Jahres 2027",
-      "link": "https://www.tagesschau.de/wissen/klima/blume-des-jahres-100.html",
-      "description": "Seit 1980 kürt die Loki-Schmidt-Stiftung die Blume des Jahres. Für 2027 hat sie die Gelbe Wiesenraute auserkoren. Mit der Wahl der bis zu 1,50 Meter hohen Pflanze verbindet die Stiftung einen Appell.",
-      "date": "2026-10-22T09:07:58+00:00",
-      "category": "Wissenschaft",
       "source": "www.tagesschau.de"
     },
     {
@@ -1060,24 +1078,6 @@
       "link": "https://www.tagesschau.de/wissen/gesundheit/who-warnt-vor-ausbreitung-von-fettleibigkeit-100.html",
       "description": "Immer mehr Kinder und Jugendliche weltweit sind fettleibig. Darum hat die WHO nun globale Leitlinien herausgegeben, um eine weitere Zunahme von Adipositasfällen zu stoppen. Dabei im Fokus: die Ernährung. Abnehmspritzen lehnt die WHO ab.",
       "date": "2026-10-07T08:21:57+00:00",
-      "category": "Gesundheit",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/video/video-1661224.html",
-      "title": "Bekanntgabe in Stockholm: Medizin-Nobelpreis für deutsche Forscher",
-      "link": "https://www.tagesschau.de/video/video-1661224.html",
-      "description": "Bekanntgabe in Stockholm: Medizin-Nobelpreis für deutsche Forscher",
-      "date": "2026-10-06T08:29:01+00:00",
-      "category": "Gesundheit",
-      "source": "www.tagesschau.de"
-    },
-    {
-      "id": "https://www.tagesschau.de/wissen/gesundheit/optogenetik-nobelpreis-100.html",
-      "title": "Optogenetik: Medizin-Nobelpreis für den Lichtschalter im Gehirn",
-      "link": "https://www.tagesschau.de/wissen/gesundheit/optogenetik-nobelpreis-100.html",
-      "description": "Eine Grünalge lieferte den entscheidenden Baustein: Mit der Optogenetik lassen sich Nervenzellen durch Licht steuern. Dafür erhalten Peter Hegemann, Georg Nagel und Karl Deisseroth den Medizin-Nobelpreis. Von Doris Tromballa.",
-      "date": "2026-10-05T14:53:43+00:00",
       "category": "Gesundheit",
       "source": "www.tagesschau.de"
     }
