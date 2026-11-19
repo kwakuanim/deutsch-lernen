@@ -42,13 +42,13 @@ async function loadNews(force=false){
   if(!Array.isArray(data.items)||!data.items.length)throw Error('Keine Nachrichten');
   liveNews=data.items.filter(x=>x.title&&x.link&&x.category);
   newsChecked=Date.parse(data.updated_at)||Date.now();
-  newsStatus=liveNews.length+' Nachrichten aus GitHub · aktualisiert '+new Date(newsChecked).toLocaleString('de-DE');
+  newsStatus=liveNews.length+' aktuelle Nachrichten · Zuletzt aktualisiert: '+new Date(newsChecked).toLocaleString('de-DE');
   try{localStorage.setItem('deutsch-news-cache',JSON.stringify({time:newsChecked,items:liveNews}))}catch{}
  }catch(error){
   let cached=null;
   try{cached=JSON.parse(localStorage.getItem('deutsch-news-cache')||'null')}catch{}
   liveNews=Array.isArray(cached?.items)?cached.items:[];
-  newsStatus=liveNews.length?'Nachrichten-Datei nicht erreichbar. Gespeicherte Meldungen werden angezeigt.':'Noch keine news.json verfügbar. Bitte GitHub Actions einmal ausführen.';
+  newsStatus=liveNews.length?'Nachrichten derzeit nicht erreichbar. Gespeicherte Meldungen werden angezeigt.':'Noch keine aktuellen Nachrichten verfügbar. Bitte später erneut versuchen.';
   console.warn('news.json unavailable',error);
  }
  newsLoading=false;if(tab==='Lesen')render();
