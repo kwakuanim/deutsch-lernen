@@ -216,40 +216,95 @@ const verbLexicon={
  wissen:{present:['weiß','weißt','weiß','wissen','wisst','wissen'],past:['wusste','wusstest','wusste','wussten','wusstet','wussten'],part:'gewusst',aux:'haben'},
  denken:{present:['denke','denkst','denkt','denken','denkt','denken'],past:['dachte','dachtest','dachte','dachten','dachtet','dachten'],part:'gedacht',aux:'haben'},
  bringen:{present:['bringe','bringst','bringt','bringen','bringt','bringen'],past:['brachte','brachtest','brachte','brachten','brachtet','brachten'],part:'gebracht',aux:'haben'},
+ essen:{present:['esse','isst','isst','essen','esst','essen'],past:['aß','aßest','aß','aßen','aßt','aßen'],part:'gegessen',aux:'haben'},
+ trinken:{present:['trinke','trinkst','trinkt','trinken','trinkt','trinken'],past:['trank','trankst','trank','tranken','trankt','tranken'],part:'getrunken',aux:'haben'},
+ schlafen:{present:['schlafe','schläfst','schläft','schlafen','schlaft','schlafen'],past:['schlief','schliefst','schlief','schliefen','schlieft','schliefen'],part:'geschlafen',aux:'haben'},
+ laufen:{present:['laufe','läufst','läuft','laufen','lauft','laufen'],past:['lief','liefst','lief','liefen','lieft','liefen'],part:'gelaufen',aux:'sein'},
+ bleiben:{present:['bleibe','bleibst','bleibt','bleiben','bleibt','bleiben'],past:['blieb','bliebst','blieb','blieben','bliebt','blieben'],part:'geblieben',aux:'sein'},
+ stehen:{present:['stehe','stehst','steht','stehen','steht','stehen'],past:['stand','standest','stand','standen','standet','standen'],part:'gestanden',aux:'haben'},
+ verstehen:{present:['verstehe','verstehst','versteht','verstehen','versteht','verstehen'],past:['verstand','verstandest','verstand','verstanden','verstandet','verstanden'],part:'verstanden',aux:'haben'},
+ beginnen:{present:['beginne','beginnst','beginnt','beginnen','beginnt','beginnen'],past:['begann','begannst','begann','begannen','begannt','begannen'],part:'begonnen',aux:'haben'},
+ gewinnen:{present:['gewinne','gewinnst','gewinnt','gewinnen','gewinnt','gewinnen'],past:['gewann','gewannst','gewann','gewannen','gewannt','gewannen'],part:'gewonnen',aux:'haben'},
+ verlieren:{present:['verliere','verlierst','verliert','verlieren','verliert','verlieren'],past:['verlor','verlorst','verlor','verloren','verlort','verloren'],part:'verloren',aux:'haben'},
+ helfen:{present:['helfe','hilfst','hilft','helfen','helft','helfen'],past:['half','halfst','half','halfen','halft','halfen'],part:'geholfen',aux:'haben'},
+ treffen:{present:['treffe','triffst','trifft','treffen','trefft','treffen'],past:['traf','trafst','traf','trafen','traft','trafen'],part:'getroffen',aux:'haben'},
+ tragen:{present:['trage','trägst','trägt','tragen','tragt','tragen'],past:['trug','trugst','trug','trugen','trugt','trugen'],part:'getragen',aux:'haben'},
+ sitzen:{present:['sitze','sitzt','sitzt','sitzen','sitzt','sitzen'],past:['saß','saßest','saß','saßen','saßt','saßen'],part:'gesessen',aux:'haben'},
+ liegen:{present:['liege','liegst','liegt','liegen','liegt','liegen'],past:['lag','lagst','lag','lagen','lagt','lagen'],part:'gelegen',aux:'haben'},
+ ziehen:{present:['ziehe','ziehst','zieht','ziehen','zieht','ziehen'],past:['zog','zogst','zog','zogen','zogt','zogen'],part:'gezogen',aux:'haben'},
+ entscheiden:{present:['entscheide','entscheidest','entscheidet','entscheiden','entscheidet','entscheiden'],past:['entschied','entschiedest','entschied','entschieden','entschiedet','entschieden'],part:'entschieden',aux:'haben'},
+ können:{present:['kann','kannst','kann','können','könnt','können'],past:['konnte','konntest','konnte','konnten','konntet','konnten'],part:'gekonnt',aux:'haben'},
+ müssen:{present:['muss','musst','muss','müssen','müsst','müssen'],past:['musste','musstest','musste','mussten','musstet','mussten'],part:'gemusst',aux:'haben'},
+ dürfen:{present:['darf','darfst','darf','dürfen','dürft','dürfen'],past:['durfte','durftest','durfte','durften','durftet','durften'],part:'gedurft',aux:'haben'},
+ sollen:{present:['soll','sollst','soll','sollen','sollt','sollen'],past:['sollte','solltest','sollte','sollten','solltet','sollten'],part:'gesollt',aux:'haben'},
+ wollen:{present:['will','willst','will','wollen','wollt','wollen'],past:['wollte','wolltest','wollte','wollten','wolltet','wollten'],part:'gewollt',aux:'haben'},
+ mögen:{present:['mag','magst','mag','mögen','mögt','mögen'],past:['mochte','mochtest','mochte','mochten','mochtet','mochten'],part:'gemocht',aux:'haben'},
  lernen:{present:['lerne','lernst','lernt','lernen','lernt','lernen'],past:['lernte','lerntest','lernte','lernten','lerntet','lernten'],part:'gelernt',aux:'haben'},
  machen:{present:['mache','machst','macht','machen','macht','machen'],past:['machte','machtest','machte','machten','machtet','machten'],part:'gemacht',aux:'haben'},
  arbeiten:{present:['arbeite','arbeitest','arbeitet','arbeiten','arbeitet','arbeiten'],past:['arbeitete','arbeitetest','arbeitete','arbeiteten','arbeitetet','arbeiteten'],part:'gearbeitet',aux:'haben'},
  studieren:{present:['studiere','studierst','studiert','studieren','studiert','studieren'],past:['studierte','studiertest','studierte','studierten','studiertet','studierten'],part:'studiert',aux:'haben'}
 };
 const pronouns=['ich','du','er/sie/es','wir','ihr','sie/Sie'];
+const separablePrefixes=['zurück','zusammen','weiter','wieder','vorbei','heraus','hinein','hinauf','herunter','auf','an','aus','ein','mit','nach','vor','weg','zu','ab','bei','los','fest'];
+const separableAux={aufstehen:'sein',ankommen:'sein',ausgehen:'sein',einsteigen:'sein',aussteigen:'sein',zurückkommen:'sein',weggehen:'sein',einschlafen:'sein',aufwachen:'sein'};
 function regularVerb(inf){
- if(!/^[a-zäöüß]+(?:eln|ern|en|n)$/.test(inf)||inf.length<5)return null;
- const ending=inf.endsWith('en')?2:1,stem=inf.slice(0,-ending);
+ if(!/^[a-zäöüß]+(?:eln|ern|en|n)$/.test(inf)||inf.length<4)return null;
+ const stem=inf.endsWith('en')?inf.slice(0,-2):inf.slice(0,-1);
  const extra=/[dt]$/.test(stem),sibilant=/(s|ß|x|z|tz)$/.test(stem);
- const e=extra?'e':'';
- const present=[stem+'e',stem+(sibilant?'t':'st').replace(/^t$/,e+'t'),stem+e+'t',inf,stem+e+'t',inf];
- const pastStem=stem+(extra?'ete':'te');
- const past=[pastStem,pastStem+'st',pastStem,pastStem+'n',pastStem+'t',pastStem+'n'];
- const part=inf.endsWith('ieren')?stem+'t':('ge'+stem+(extra?'et':'t'));
+ const present=[stem+'e',stem+(extra?'est':sibilant?'t':'st'),stem+(extra?'et':'t'),inf,stem+(extra?'et':'t'),inf];
+ const p=stem+(extra?'ete':'te');
+ const past=[p,p+'st',p,p+'n',p+'t',p+'n'];
+ const noGe=/^(be|emp|ent|er|ge|miss|ver|zer)/.test(inf)||inf.endsWith('ieren');
+ const part=(noGe?'':'ge')+stem+(extra?'et':'t');
  return {present,past,part,aux:'haben'};
 }
-function inferVerb(word){
- const w=word.toLocaleLowerCase('de-DE').trim().replace(/[.!?,;:]/g,'');
- if(verbLexicon[w])return {inf:w,forms:verbLexicon[w],verified:true};
- for(const [inf,forms] of Object.entries(verbLexicon)){
-  if([...forms.present,...forms.past,forms.part].some(f=>f.toLocaleLowerCase('de-DE')===w))return {inf,forms,verified:true};
+function getVerb(inf,depth=0){
+ if(verbLexicon[inf])return {inf,forms:verbLexicon[inf],verified:true,kind:'Wörterbucheintrag'};
+ if(depth<1){
+  for(const prefix of separablePrefixes){
+   if(!inf.startsWith(prefix)||inf.length-prefix.length<4)continue;
+   const base=inf.slice(prefix.length),entry=getVerb(base,1);
+   if(!entry)continue;
+   const f=entry.forms;
+   const forms={present:f.present.map(v=>v+' '+prefix),past:f.past.map(v=>v+' '+prefix),part:prefix+f.part,aux:separableAux[inf]||f.aux};
+   return {inf,forms,verified:entry.verified,kind:'Trennbares Verb',separable:true};
+  }
  }
- // Productive rules are a teaching aid, not a substitute for an irregular-verb dictionary.
- const forms=regularVerb(w);
- return forms?{inf:w,forms,verified:false}:null;
+ const forms=/(en|eln|ern)$/.test(inf)?regularVerb(inf):null;
+ return forms?{inf,forms,verified:false,kind:'Regelmäßiges Muster (nicht überprüft)'}:null;
+}
+function inferVerb(word){
+ let w=word.toLocaleLowerCase('de-DE').trim().replace(/[.!?,;:]/g,'').replace(/^sich\s+/,'');
+ const reflexive=/^sich\s+/i.test(word.trim());
+ if(!w||w.includes(' '))return null;
+ let info=getVerb(w);
+ if(!info){
+  for(const [inf,forms] of Object.entries(verbLexicon)){
+   if([...forms.present,...forms.past,forms.part].includes(w)){info=getVerb(inf);break}
+  }
+ }
+ if(!info)return null;
+ return {...info,reflexive};
 }
 function conjugationTable(info){
- const f=info.forms,aux=verbLexicon[f.aux],pastAux=aux.past,presentAux=aux.present;
- const cols=[['Präsens',f.present],['Präteritum',f.past],['Perfekt',presentAux.map(a=>a+' '+f.part)],['Plusquamperfekt',pastAux.map(a=>a+' '+f.part)]];
- return `<div class="conjugation-wrap">${info.verified?'':'<p class="muted" style="color:#9a4a12"><b>Regelmäßiges Muster (nicht geprüft).</b> Bei unregelmäßigen Verben oder Verben mit „sein“ können diese Formen falsch sein.</p>'}<p class="muted">Infinitiv: <b>${escapeHtml(info.inf)}</b> · Partizip II: <b>${escapeHtml(f.part)}</b> · Hilfsverb: <b>${escapeHtml(f.aux)}</b></p><div class="conjugation-scroll"><table class="conjugation-table"><thead><tr><th>Person</th>${cols.map(c=>'<th>'+c[0]+'</th>').join('')}</tr></thead><tbody>${pronouns.map((p,i)=>'<tr><th>'+p+'</th>'+cols.map(c=>'<td>'+escapeHtml(c[1][i])+'</td>').join('')+'</tr>').join('')}</tbody></table></div></div>`;
+ const f=info.forms,aux=verbLexicon[f.aux]||verbLexicon.haben;
+ const reflex=['mich','dich','sich','uns','euch','sich'];
+ const putReflex=(v,i)=>{
+  if(!info.reflexive)return v;
+  if(info.separable){const pos=v.lastIndexOf(' ');return v.slice(0,pos)+' '+reflex[i]+v.slice(pos)}
+  return v+' '+reflex[i];
+ };
+ const present=f.present.map((v,i)=>putReflex(v,i));
+ const past=f.past.map((v,i)=>putReflex(v,i));
+ const perfect=aux.present.map((v,i)=>v+(info.reflexive?' '+reflex[i]:'')+' '+f.part);
+ const pluperfect=aux.past.map((v,i)=>v+(info.reflexive?' '+reflex[i]:'')+' '+f.part);
+ const cols=[['Präsens',present],['Präteritum',past],['Perfekt',perfect],['Plusquamperfekt',pluperfect]];
+ const warning=info.verified?'':'<p class="muted" style="color:#9a4a12"><b>Hinweis:</b> Diese Formen wurden regelbasiert erzeugt und nicht im Wörterbuch geprüft. Unregelmäßige Formen und die Wahl des Hilfsverbs können abweichen.</p>';
+ const modal=['können','müssen','dürfen','sollen','wollen','mögen'].includes(info.inf)?'<p class="muted">Bei Modalverben mit einem weiteren Infinitiv wird im Perfekt und Plusquamperfekt häufig der Ersatzinfinitiv verwendet, z. B. „ich habe arbeiten müssen“.</p>':'';
+ return `<div class="conjugation-wrap">${warning}<p class="muted"><b>${escapeHtml(info.kind)}</b> · Infinitiv: <b>${escapeHtml((info.reflexive?'sich ':'')+info.inf)}</b> · Partizip II: <b>${escapeHtml(f.part)}</b> · Hilfsverb: <b>${escapeHtml(f.aux)}</b></p>${modal}<div class="conjugation-scroll"><table class="conjugation-table"><thead><tr><th>Person</th>${cols.map(c=>'<th>'+c[0]+'</th>').join('')}</tr></thead><tbody>${pronouns.map((p,i)=>'<tr><th>'+p+'</th>'+cols.map(c=>'<td>'+escapeHtml(c[1][i])+'</td>').join('')+'</tr>').join('')}</tbody></table></div></div>`;
 }
 function setupMiniDictionary(box,n,isStory){
- box.innerHTML=`<h3>📖 Mini-Wörterbuch</h3><p class="muted">Suche ein deutsches Wort oder markiere ein Wort im Lesetext. Suche Verben im Infinitiv. Häufige unregelmäßige Verben sind hinterlegt; andere werden nach einem regelmäßigen Muster angezeigt.</p><div class="dictionary-search"><input id="dictionaryQuery" class="field" placeholder="z. B. gehen, gelesen, Forschung" aria-label="Wort suchen"><button id="dictionarySearch" class="primary">Suchen</button></div><div id="dictionaryResult" aria-live="polite"></div>`;
+ box.innerHTML=`<h3>📖 Mini-Wörterbuch</h3><p class="muted">Suche ein deutsches Wort oder markiere ein Wort im Lesetext. Suche Wörter und Verben, z. B. „gehen“, „aufstehen“, „sich freuen“ oder „gelesen“. Vier Zeitformen werden angezeigt. Nicht geprüfte Formen sind gekennzeichnet.</p><div class="dictionary-search"><input id="dictionaryQuery" class="field" placeholder="z. B. gehen, gelesen, Forschung" aria-label="Wort suchen"><button id="dictionarySearch" class="primary">Suchen</button></div><div id="dictionaryResult" aria-live="polite"></div>`;
  box.querySelector('#dictionarySearch').onclick=()=>lookupDictionary(box.querySelector('#dictionaryQuery').value,box,n,isStory);
  box.querySelector('#dictionaryQuery').onkeydown=e=>{if(e.key==='Enter')box.querySelector('#dictionarySearch').click()};
 }
