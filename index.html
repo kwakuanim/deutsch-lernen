@@ -222,22 +222,34 @@ const verbLexicon={
  studieren:{present:['studiere','studierst','studiert','studieren','studiert','studieren'],past:['studierte','studiertest','studierte','studierten','studiertet','studierten'],part:'studiert',aux:'haben'}
 };
 const pronouns=['ich','du','er/sie/es','wir','ihr','sie/Sie'];
+function regularVerb(inf){
+ if(!/^[a-zäöüß]+(?:eln|ern|en|n)$/.test(inf)||inf.length<5)return null;
+ const ending=inf.endsWith('en')?2:1,stem=inf.slice(0,-ending);
+ const extra=/[dt]$/.test(stem),sibilant=/(s|ß|x|z|tz)$/.test(stem);
+ const e=extra?'e':'';
+ const present=[stem+'e',stem+(sibilant?'t':'st').replace(/^t$/,e+'t'),stem+e+'t',inf,stem+e+'t',inf];
+ const pastStem=stem+(extra?'ete':'te');
+ const past=[pastStem,pastStem+'st',pastStem,pastStem+'n',pastStem+'t',pastStem+'n'];
+ const part=inf.endsWith('ieren')?stem+'t':('ge'+stem+(extra?'et':'t'));
+ return {present,past,part,aux:'haben'};
+}
 function inferVerb(word){
  const w=word.toLocaleLowerCase('de-DE').trim().replace(/[.!?,;:]/g,'');
  if(verbLexicon[w])return {inf:w,forms:verbLexicon[w],verified:true};
- // Limited lookup of known inflected forms, without inventing a lemma.
  for(const [inf,forms] of Object.entries(verbLexicon)){
   if([...forms.present,...forms.past,forms.part].some(f=>f.toLocaleLowerCase('de-DE')===w))return {inf,forms,verified:true};
  }
- return null;
+ // Productive rules are a teaching aid, not a substitute for an irregular-verb dictionary.
+ const forms=regularVerb(w);
+ return forms?{inf:w,forms,verified:false}:null;
 }
 function conjugationTable(info){
  const f=info.forms,aux=verbLexicon[f.aux],pastAux=aux.past,presentAux=aux.present;
  const cols=[['Präsens',f.present],['Präteritum',f.past],['Perfekt',presentAux.map(a=>a+' '+f.part)],['Plusquamperfekt',pastAux.map(a=>a+' '+f.part)]];
- return `<div class="conjugation-wrap"><p class="muted">Infinitiv: <b>${escapeHtml(info.inf)}</b> · Partizip II: <b>${escapeHtml(f.part)}</b> · Hilfsverb: <b>${escapeHtml(f.aux)}</b></p><div class="conjugation-scroll"><table class="conjugation-table"><thead><tr><th>Person</th>${cols.map(c=>'<th>'+c[0]+'</th>').join('')}</tr></thead><tbody>${pronouns.map((p,i)=>'<tr><th>'+p+'</th>'+cols.map(c=>'<td>'+escapeHtml(c[1][i])+'</td>').join('')+'</tr>').join('')}</tbody></table></div></div>`;
+ return `<div class="conjugation-wrap">${info.verified?'':'<p class="muted" style="color:#9a4a12"><b>Regelmäßiges Muster (nicht geprüft).</b> Bei unregelmäßigen Verben oder Verben mit „sein“ können diese Formen falsch sein.</p>'}<p class="muted">Infinitiv: <b>${escapeHtml(info.inf)}</b> · Partizip II: <b>${escapeHtml(f.part)}</b> · Hilfsverb: <b>${escapeHtml(f.aux)}</b></p><div class="conjugation-scroll"><table class="conjugation-table"><thead><tr><th>Person</th>${cols.map(c=>'<th>'+c[0]+'</th>').join('')}</tr></thead><tbody>${pronouns.map((p,i)=>'<tr><th>'+p+'</th>'+cols.map(c=>'<td>'+escapeHtml(c[1][i])+'</td>').join('')+'</tr>').join('')}</tbody></table></div></div>`;
 }
 function setupMiniDictionary(box,n,isStory){
- box.innerHTML=`<h3>📖 Mini-Wörterbuch</h3><p class="muted">Suche ein deutsches Wort oder markiere ein Wort im Lesetext. Für unterstützte Verben siehst du vier Zeitformen.</p><div class="dictionary-search"><input id="dictionaryQuery" class="field" placeholder="z. B. gehen, gelesen, Forschung" aria-label="Wort suchen"><button id="dictionarySearch" class="primary">Suchen</button></div><div id="dictionaryResult" aria-live="polite"></div>`;
+ box.innerHTML=`<h3>📖 Mini-Wörterbuch</h3><p class="muted">Suche ein deutsches Wort oder markiere ein Wort im Lesetext. Suche Verben im Infinitiv. Häufige unregelmäßige Verben sind hinterlegt; andere werden nach einem regelmäßigen Muster angezeigt.</p><div class="dictionary-search"><input id="dictionaryQuery" class="field" placeholder="z. B. gehen, gelesen, Forschung" aria-label="Wort suchen"><button id="dictionarySearch" class="primary">Suchen</button></div><div id="dictionaryResult" aria-live="polite"></div>`;
  box.querySelector('#dictionarySearch').onclick=()=>lookupDictionary(box.querySelector('#dictionaryQuery').value,box,n,isStory);
  box.querySelector('#dictionaryQuery').onkeydown=e=>{if(e.key==='Enter')box.querySelector('#dictionarySearch').click()};
 }
